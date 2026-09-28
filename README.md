@@ -23,6 +23,8 @@ This release contains everything needed to verify the paper's quantitative claim
 | Placebo arm: Δ_disc = +0.111 | `results/placebo_GPQA_glm46_glm45_judge_glm45air.json` |
 | U1 implanted-consensus: judge-only, Δ = +0.512 (glm-4.5-air) / −0.013 (glm-4-flash) | `results/u1_implanted.json(.jsonl)` |
 | W-5 cross-family rejudge: qwen-flash Δ = +0.000 on DR arm, +0.325 on implanted arm | `results/u1_implanted_w5_qwenflash.json(.jsonl)`, `results/dr_*` |
+| W-5 four-arm rejudge by qwen-flash: Δ = −0.014 / −0.014 / −0.028 / −0.014 (DR / no-crux / no-conflict / placebo) | `results/dr_GPQA_glm46_glm45_qwen-flash.json`, `results/drnocrux_GPQA_glm46_glm45_qwen-flash.json`, `results/drnoconf_GPQA_glm46_glm45_qwen-flash.json`, `results/placebo_GPQA_glm46_glm45_qwen-flash.json` |
+| W-2 same-model consultant pilot: glm-4.6×glm-4.6, 10/10 correct consensuses on 10 matched episodes (main arm: 8/10) | `results/dr_GPQA_glm46_homo_glm-4.5-air.json` |
 | U6 construction census: 620/620 forced one-right-one-wrong | `scripts/u6_census.py` + result logs |
 
 ## Reproduction

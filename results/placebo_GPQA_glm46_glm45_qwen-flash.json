@@ -1,0 +1,5205 @@
+{
+  "protocol": "placebo",
+  "dataset": "GPQA",
+  "pair": "glm46_glm45",
+  "judge": "qwen-flash",
+  "provider": "zhipu",
+  "budget": {
+    "max_turns": 5,
+    "max_tokens": 800,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "words_limit": 150,
+    "retries": 5,
+    "timeout": 1200
+  },
+  "provider_budget": {
+    "max_tokens": 8192,
+    "min_answer_tokens": 1024,
+    "workers": 4,
+    "backoff": 5
+  },
+  "routes": {
+    "glm-4.6": "zhipu",
+    "glm-4.5-air": "zhipu",
+    "qwen-flash": "alibaba"
+  },
+  "routed_calls": {
+    "qwen-flash": 79
+  },
+  "end_urls": {
+    "alibaba": "https://llm-enerc2vosh8n2a1g.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+    "zhipu": "https://open.bigmodel.cn/api/coding/paas/v4"
+  },
+  "seed_source": "data",
+  "offset": 0,
+  "seed_complete": true,
+  "n_seed_fail": 0,
+  "seed_failed_indices": [],
+  "n_ok": 79,
+  "n_err": 1,
+  "accuracy": 88.60759493670885,
+  "elapsed_s": 3833.1,
+  "api_calls": 88,
+  "cache_hits": 174,
+  "tokens_in": 115519,
+  "tokens_out": 143632,
+  "reasoning_tokens": 119882,
+  "empty_contents": 13,
+  "rate_limited": 0,
+  "quota_exhausted": 1,
+  "quota_reset_msg": "余额不足或无可用资源包,请充值。",
+  "end_url": "https://open.bigmodel.cn/api/coding/paas/v4",
+  "think": "auto",
+  "workers": 4,
+  "results": [
+    {
+      "index": 2,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently trace the reaction sequence with correct carbon counting. They correctly identify trans-cinnamaldehyde (9 C), MeMgBr addition to form product 1 (10 C), PCC oxidation to product 2 (still 10 C, enone). The sulfoxonium ylide (dimethylsulfoxonium methylide) adds only one CH2 unit via conjugate addition/cyclopropanation, increasing carbon count by 1 to 11. The error in prior reasoning (claiming +4 carbons) is explicitly retracted. All steps are logically coherent, terminology is normalized, and intermediate counts align. The agreement is robust and based on first-principles organic chemistry.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1155
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1098
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 8,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently derive that introducing magnetic monopoles requires modifying both Gauss's law for magnetism (∇·B = μ₀ρ_m) and Faraday's law (∇×E = -∂B/∂t - μ₀J_m) to maintain charge conservation and duality symmetry. Their reasoning is grounded in first principles: taking the divergence of Faraday’s law leads to the magnetic continuity equation, which necessitates a magnetic current term. This self-consistency argument is logically sound and aligned with the definitions of flux and circulation. The terminology is normalized, and the conclusion matches option A exactly. Agreement is reached, and the reasoning is robust.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1347
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1249
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 0,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the final answer (B: R-loops) and their reasoning traces are logically coherent, self-consistent, and grounded in first principles. They correctly normalize key terms: antisense (D) refers to the Morpholino's mechanism of binding pre-mRNA; lariat (A) is a splicing intermediate formed during exon joining; polyA tail (C) is added co-transcriptionally and is essential for mRNA stability and translation; R-loops (B) are RNA:DNA hybrids linked to transcriptional processes, not splicing or antisense therapy. The core disagreement in Consultant 1’s initial position was resolved by clarifying that the polyA tail is part of the mature mRNA product and thus involved in the therapeutic outcome, even if not directly targeted by the Morpholino. Consultant 2’s re-evaluation properly distinguishes between 'direct targeting' and 'biological involvement,' concluding that R-loops play no role at any stage. Both now converge on B as the only structure not involved. The agreement is sound and well-justified.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 2237
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1804
+        }
+      ],
+      "conf_1": [
+        "medium"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 6,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants now agree on the final count of 8 distinct non-exchanging 1H NMR signals in Acid Orange 7. Consultant 1 provides a consistent, logically sound argument: the para-disubstituted benzene ring gives 2 signals (AA'BB' symmetry), and the 1,2-disubstituted naphthalene ring (with no symmetry due to asymmetric substitution) gives 6 distinct proton environments. The key point is that C10H6X2 naphthalene has only 6 aromatic hydrogens, making a 7-proton signal impossible—this invalidates any claim of 9 signals. Consultant 2 initially erred by suggesting 9 signals but correctly retracted this, acknowledging the overcount and aligning with 8 signals. Their reasoning is now internally consistent and matches Consultant 1’s. Both traces use proper definitions (non-exchanging hydrogens exclude OH and SO3H), apply correct symmetry analysis, and avoid physical impossibilities. The agreement is valid and well-justified.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1623
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1311
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 20,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently arrive at the same conclusion (D) through logically consistent reasoning. They correctly identify that the key factor enabling temperature-independence is the concerted mechanism, which precludes intermediates and thus rules out rearrangements or equilibration. While B and C are accurate descriptors of aspects of the reaction, they do not explain why temperature does not affect the outcome—only D provides the mechanistic basis for this behavior. The reasoning in both traces is self-consistent, aligns terminology with first principles, and properly adjudicates the question's emphasis on temperature independence. Therefore, the agreement is justified.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1391
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1358
+        }
+      ],
+      "conf_1": [
+        "medium"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 10,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": false,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently argue that the core objective—exploring the relationship between chromatin structure and gene expression—requires an unbiased, genome-wide expression assay (RNA-seq) to capture potential dysregulation beyond pre-selected genes. They correctly identify that qRT-PCR alone is insufficient for discovery, as it only validates hypotheses about known genes. Position A includes ChIP-seq (for local chromatin state), RNA-seq (for unbiased expression profiling), and qRT-PCR (for targeted validation)—a complete, logically coherent workflow matching the exploratory goal. Position D lacks RNA-seq entirely, relying solely on qRT-PCR for expression, which cannot reveal novel expression changes. Both consultants correctly reject D due to this critical gap. Their reasoning is self-consistent, grounded in first principles (exploration requires unbiased discovery), and properly normalizes technical terms. The agreement status confirms convergence on a sound rationale. Therefore, the shared answer A is justified.",
+      "action_1": "Overthinking",
+      "action_2": "Stubbornness",
+      "exit_mode": "AT",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 2036
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1899
+        }
+      ],
+      "conf_1": [
+        "medium"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 18,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the identification of aluminum as the amphoteric, crust-abundant metal and correctly calculate the moles of Al (0.08 mol) and O2 (0.6 mol). They both recognize Al as the limiting reactant in oxide formation, leading to 0.04 mol Al2O3. The key divergence lies in the reduction stoichiometry: Consultant 1 uses Al2O3 + 3C → 2Al + 3CO (3 mol C per mol Al2O3), yielding 1.44 g C (not an option), but then corrects by adopting the CO2-forming path (2Al2O3 + 3C → 4Al + 3CO2), which gives 0.72 g. Consultant 2 explicitly identifies the CO2-based reduction as correct and consistent with the options, noting that the CO-forming path leads to a non-option value and that alternative metals like Zn contradict the 'most abundant' clue. Only the CO2-reduction path yields a balanced equation matching option D (0.72 g). The derivation is grounded in first principles, units are consistent, and the final answer aligns with a valid stoichiometric pathway. No unsupported assertions are made. The agreement is sound and internally consistent.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1030
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1454
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 11,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": false,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same stoichiometric volume (28.05 cm³) from accurate molar mass and reaction stoichiometry (Fe(OH)₃ + 3H⁺ → Fe³⁺ + 3H₂O). They both correctly identify that the minimum acid volume corresponds to complete dissolution at the saturation point, where the solution is just saturated with Fe(OH)₃. Using Ksp ≈ 1×10⁻³⁸ and [Fe³⁺] ≈ 9.36×10⁻³ M, they compute [OH⁻] ≈ 1.0×10⁻¹² M, yielding pH ≈ 2.04 — exactly matching option D. Consultant 2’s analysis explicitly refutes option B by showing that its proposed pH of 2.69 leads to Q >> Ksp, implying reprecipitation, which violates the condition of complete dissolution. The hydrolysis-based pH estimate (2.69) in option B is therefore thermodynamically inconsistent. Both consultants agree on the correct reasoning: the Ksp saturation criterion, not hydrolysis equilibrium, governs the minimum acid endpoint. Their reasoning is logically coherent, self-consistent, and grounded in first principles. Option D is uniquely supported.",
+      "action_1": "Overthinking",
+      "action_2": "Stubbornness",
+      "exit_mode": "AT",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1684
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1406
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 23,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same contact angles using the Cassie-Baxter equation with identical inputs: f_solid = 0.47, f_air = 0.53, θ_smooth = 127° for water and 96° for oil, and cos(180°) = -1. Their intermediate calculations yield cos(θ*) ≈ -0.813 (θ* ≈ 144.4°) for water and cos(θ*) ≈ -0.579 (θ* ≈ 125.4°) for oil. Option A (144°, 125°) matches these values within 0.5°, while Option B deviates by over 3° in both cases—too large to be explained by rounding. Consultant 2 correctly identifies their prior choice of B as a mapping error, not a modeling discrepancy. The reasoning is logically consistent, self-contained, and grounded in first principles. Agreement is confirmed and correct.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1228
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1592
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 27,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants converge on answer B, and their reasoning traces are logically coherent and self-consistent. Consultant 1 provides a detailed, step-by-step analysis grounded in chemical principles: (1) rephrasing the positions with normalized terminology; (2) identifying that group VIa metals (Cr, Mo, W) with specific activators (e.g., MMAO/borate) enable selective ethylene trimerization to 1-hexene, which acts as a comonomer for regular branching; (3) correctly rejecting A (no industrial tandem systems yet), C (Al activators do work in oligomerization steps), and D (Pd chain-walking produces irregular branches, not regular ones). Consultant 2's reasoning is more concise but aligns with this core principle—group VIa catalysts with specific activators are viable for generating regular branches via in-situ comonomer formation. Neither consultant makes unsupported leaps. The shared conclusion B is chemically sound and derivable from first principles of polymerization catalysis. Agreement status is 'agree', and the reasoning is robust.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 1,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 2246
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "B",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 2318
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 24,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same physical relationship using Kepler's third law and radial velocity semi-amplitudes, correctly establishing that total mass M ∝ (K₁ + K₂)³ × P. For system_1: (10 + 5)³ × 2 = 15³ × 2 = 6750. For system_2: (15 + 10)³ × 1 = 25³ × 1 = 15625. The mass ratio M₁/M₂ = 6750 / 15625 ≈ 0.432, which rounds to ~0.4. Consultant 1 correctly identifies D as the answer, while Consultant 2 initially selects B due to a mismatch between calculation and choice but explicitly acknowledges this error and corrects it in their reasoning. Both traces are logically consistent with first principles, and their final conclusion aligns on D. The agreement is sound and self-consistent.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1177
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 840
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 33,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same correct probability integrals using the isotropic inclination distribution p(i) = sin(i), leading to P(45°–90°) = √2/2 ≈ 0.707 and P(0°–45°) = 1 − √2/2 ≈ 0.293. Their ratio is unambiguously (√2/2)/(1 − √2/2) = √2 + 1 ≈ 2.414, which matches option A. Consultant 1 correctly identifies the arithmetic error in the competing position (confusing √2 + 1 with √2), while Consultant 2 explicitly exposes the same mistake. Both perform consistent, first-principles derivations, verify the result geometrically via solid-angle weighting, and rule out alternatives based on physical intuition (ratio > 1). The reasoning is logically sound, self-consistent, and aligned with definitions. Agreement is complete and correct.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1155
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1112
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 38,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same key result: the semi-major axis ratio a_1/a_2 = (2/9)^(1/3) ≈ 0.606, leading to a transit probability ratio P_transit,1/P_transit,2 = a_2/a_1 ≈ 1.65. This matches option C exactly. Consultant 1 initially claims to have computed 1.64 but incorrectly selects D (~2.7), citing a nonexistent discrepancy — this is self-contradictory and unsupported. Consultant 2 correctly identifies the derivation as aligning with option C and eliminates A and B based on physical reasoning. The shared conclusion is logically sound, grounded in first principles (transit probability ∝ R_star/a and Kepler’s third law), and all intermediate steps are consistent. No valid alternative explanation for a factor of ~2.7 exists under the given assumptions. Therefore, the agreement is justified.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1248
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1113
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 40,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently classify each compound using sound stereochemical principles: achiral if possessing a mirror plane, meso form, pseudoasymmetric centers (lowercase r/s), or identical substituents; chiral only if stereogenic elements exist without internal symmetry. Their step-by-step analysis agrees on all seven compounds: compounds 2, 4, and 5 are chiral and optically active; the others are achiral due to symmetry, pseudoasymmetry, or identical groups. The original position (A) incorrectly claims 4 active compounds despite identifying 1, 3, 6, 7 as achiral—this is an arithmetic inconsistency. Both consultants correctly count only 3 active compounds (B). The reasoning is logically coherent, self-consistent, and grounded in first principles. Agreement status is 'agree', and the shared answer is sound.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1332
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1468
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 48,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the correct answer (D, Star1) and provide logically consistent, self-contained reasoning. They correctly compute culmination altitudes using h = 90° − |φ − δ| with φ = −24°, identify Star4 as unobservable (h = −4°), and recognize that minimum airmass requires δ ≈ φ. Star1 (δ = −26°) is closest to φ, transits at 88° altitude (X ≈ 1.001), and thus minimizes airmass. Consultant 2’s objection to Consultant 1 is invalid—Consultant 1's conclusion is sound, and Consultant 2’s claim that Star3 'is not an option' is unfounded. Both use proper definitions and units, align intermediate steps with final conclusions, and prioritize airmass over RA or brightness per the question’s emphasis. No logical leaps or inconsistencies are present.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1461
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1400
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 39,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the final answer (A: 3 viable systems) and converge on the same core reasoning: Systems 2, 3, and 4 are viable due to consistent mass-lifetime and mass-spectral-type relations, while System 1 fails due to an age conflict (1.5 Msun RGB star vs. >10 Gyr W Virginis), and System 5 fails due to two critical issues—(1) a 0.9 Msun star cannot be spectral type A (requires ≥1.4 Msun), and (2) a 0.85 Msun progenitor would take ~15 Gyr to evolve to a WD, exceeding the age of the Universe (~13.8 Gyr). Consultant 2 correctly retracts their earlier binary-stripping justification for System 5, acknowledging it does not resolve either the mass-spectral-type or age contradiction. The reasoning is logically coherent, self-consistent, and grounded in first principles (stellar evolution timescales and mass-luminosity relations). All intermediate conclusions align with the final count of three viable systems.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1655
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1731
+        }
+      ],
+      "conf_1": [
+        "medium"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 50,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently apply first-principles reasoning: they correctly identify the reactions as conjugate (Michael) additions, normalize terminology to clarify key carbon positions (C1 vs C3 in the cyclohexanone ring, β-carbon in the acceptor), and base their regiochemical predictions on enolate acidity. The doubly activated C1 position (pKa ≈ 11) is significantly more acidic than C3 (pKa ≈ 20), so NaOEt selectively deprotonates C1, leading to substitution at C1 — not C3. This matches option A for product A. For reaction B, both agree the enolate attacks the exocyclic β-carbon of the cyclopentylidene system, forming a quaternary center with correct connectivity, eliminating the 'succinate' options (C/D) which imply incorrect bond formation. The agreement is robust, logically coherent, and grounded in mechanistic principles. No flaws or leaps are present.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1498
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1852
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 49,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently analyze the NMR data using first principles: the aromatic signals confirm a 1,2,4-trisubstituted benzene pattern, while the aliphatic signals (δ 3.7, 3H, s and δ 2.3, 3H, s) unambiguously indicate a methoxy (-OCH₃) and an aryl methyl (-ArCH₃) group. Option A (5-chloro-1,3-xylene) and D (2-chloro-1,4-xylene) both lack oxygen-bound methyls and would show only two methyl groups at ~δ 2.3–2.4 integrating to 6H total, not two separate 3H singlets at different chemical shifts. Option B (3-chloro-4-methoxyphenol) contains a phenolic OH proton that would be expected to appear as an exchangeable signal (typically broad, ~δ 4–12), but no such signal is reported — thus inconsistent. Only option C (3-chloro-4-methoxytoluene) matches all signals: correct integration (3H + 3H), correct chemical shifts (methoxy at ~3.7, aryl methyl at ~2.3), and the coupling pattern (two doublets and one singlet) aligns with the expected 1,2,4-substitution pattern. Both consultants correctly identify this and withdraw prior errors. Their reasoning is logically sound, self-consistent, and fully grounded in NMR principles.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1536
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1410
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 61,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants correctly identify the X-linked recessive inheritance pattern and derive the same Punnett square outcomes: 25% chance of a carrier female (X^D X^d), 25% chance of an affected male (X^d Y), and 50% normal offspring. Since the sex of the child is unknown, the probabilities for a carrier child (only carrier females) and a diseased child (only affected males) are each 25%. The reasoning in both traces is logically consistent, uses first principles, and aligns with the final answer. Option A accurately reflects these probabilities. There is no substantive disagreement, and the agreement is sound.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 1,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "A",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1120
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1174
+        }
+      ],
+      "conf_1": [],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 54,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the final answer C (1.38) and provide consistent, step-by-step derivations grounded in first principles. They correctly identify that for a pure odd-cat state with φ = −π/4, α = 0.5, the normalization N² = 1 − exp(−2α²) ≈ 0.3935, and compute the quadrature variances ⟨x²⟩ ≈ 1.771, ⟨p²⟩ ≈ 1.271, leading to det V ≈ 2.25 and symplectic eigenvalue ν = √(det V) = 1.5 exactly. The entropy of the reference Gaussian state τ is then S(τ) = (ν + ½)ln(ν + ½) − (ν − ½)ln(ν − ½) = 2ln2 ≈ 1.386 nats. Since the input state ρ is pure, S(ρ) = 0, so δ = S(τ) − S(ρ) = 1.386 ≈ 1.38. This matches option C. Consultant 2 correctly identifies and corrects a notational error in Consultant 1's initial reasoning, but both ultimately converge on the same calculation. The reasoning is logically coherent, definitions align (nats, vacuum variance ½, standard quadrature operators), and intermediate steps are self-consistent. No unsupported assertions are made in the final derivation.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1321
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1382
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 66,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently identify D as inappropriate because nucleosome remodeling via DNA-histone contact disruption is exclusive to eukaryotes, lacking in prokaryotes due to the absence of histones and nucleosomes. The reasoning in both traces is logically coherent, employs accurate terminology normalization, and correctly evaluates all options: A, B, and C are fully prokaryotic and thus appropriate, while D mixes a prokaryotic mechanism (lac operon) with a eukaryotic one (chromatin remodeling), violating the requirement for a double prokaryotic regulation system. The competing position's self-contradiction (labeling A as answer but reasoning that A is appropriate) further validates the correctness of D. No flaws in logic or alignment with first principles are present.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1686
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1790
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 63,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently arrive at the same conclusion: A = 2,2-diiodoethen-1-one (diiodoketene) and diene reactivity order 3 > 1 > 2 > 4 (cyclopenta-1,3-diene > 2,3-dimethylbuta-1,3-diene > (2E,4E)-hexa-2,4-diene > (2Z,4Z)-hexa-2,4-diene). Their reasoning is logically sound, grounded in atom counting (bicyclo[4.2.0]octan-7-one has 8 carbons; cyclohexene contributes 6, so A must supply exactly 2), correct atom mapping (ketene C=O becomes C7, CI2 carbon becomes C8), and consistent reactivity trends based on s-cis accessibility and electron-donating effects. Consultant 2’s emphasis on stoichiometry and the structural impossibility of a 4-carbon cyclobutenone yielding an 8-carbon product with only two added atoms is decisive. The agreement is robust and self-consistent.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1477
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1579
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 67,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the final answer D and provide logically coherent, self-consistent reasoning grounded in first principles. They correctly identify the TBS protection at C4 with retention of stereochemistry (4S). Step 2 is uniformly interpreted: 1,4-addition of Ph via Ph2CuLi from the face anti to the OTBS group gives 3R configuration, and benzyl bromide traps the enolate trans to phenyl, yielding 2S. The key divergence in the LDA/MeI step is resolved by both consultants recognizing that under kinetic control (LDA, low temperature), deprotonation occurs at the less hindered C6 (CH2) rather than the more substituted and sterically encumbered C2. This leads to methyl addition at C6, consistent only with option D. The stereochemical analysis for C6-methylation (6S) is justified by anti-face selectivity relative to the bulky OTBS and benzyl groups. Final HCl treatment cleaves TBS without epimerization, preserving all stereocenters. All other options are invalidated: A and C have incorrect methyl position (C2) and inconsistent stereochemistry; B has wrong connectivity and structure. The reasoning traces are internally consistent, use correct terminology, and align with mechanistic principles. Agreement status is 'agree', and the shared answer D is sound.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1171
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1785
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 71,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "C",
+      "consensus": false,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "consultant_1",
+      "judge_exit": "disagree",
+      "judge_reason": "Consultant 1's reasoning is logically sound and grounded in first principles: codon-level alignment reveals Mutant 2 has a CTC→TAA mutation at codon 3, a nonsense mutation creating a premature termination codon (PTC). Given the gene's 5-exon structure, this PTC is >50 nt upstream of an exon-exon junction, satisfying NMD criteria and ensuring complete transcript degradation—making it a near-certain null allele. Consultant 2 incorrectly claims Mutant 4 has a 6-nt deletion causing a frameshift, but alignment shows only 'GGT' (positions 12–14) is deleted—3 nt—resulting in an in-frame deletion of one codon (Gly), not a frameshift. This deletion causes a single amino acid change (Gly→?) and no stop codon; thus, protein function may persist. Consultant 2’s misalignment leads to a false conclusion. Consultant 1 correctly identifies the mutation type, its functional impact, and the mechanism of decay (NMD), while Consultant 2 relies on an erroneous sequence interpretation. Therefore, Consultant 1's reasoning is stronger.",
+      "action_1": "Persistence",
+      "action_2": "Stubbornness",
+      "exit_mode": "DC",
+      "turns": 5,
+      "swap": true,
+      "stop_reason": "budget_exhausted",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 5,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1935
+        },
+        {
+          "turn": 2,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1664
+        },
+        {
+          "turn": 3,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1700
+        },
+        {
+          "turn": 4,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1745
+        },
+        {
+          "turn": 5,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1644
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1332
+        },
+        {
+          "turn": 2,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1654
+        },
+        {
+          "turn": 3,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 2040
+        },
+        {
+          "turn": 4,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1863
+        },
+        {
+          "turn": 5,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1844
+        }
+      ],
+      "conf_1": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "conf_2": [],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 85,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same correct measurement outcome by grounding their reasoning in the standard definition of a CV Bell measurement: it involves a beamsplitter followed by homodyne detection of conjugate quadratures, yielding relative position (x_i - x_j) and sum of momenta (p_i + p_j). The 4-mode CV GHZ state has perfectly correlated positions and zero total momentum, which ensures that initial vacuum fluctuations cancel in the Bell measurement outcomes. This leads to deterministic results (xa - xb, pa + pb) and (xb - xc, pb + pc), matching Option C. Consultant 1 correctly identifies the physical mechanism (beamsplitter + homodyne), while Consultant 2 validates the outcome via cancellation of global phase noise. Neither trace contains logical leaps, definitions are consistent, and both align with first principles. The agreement is well-justified and self-consistent.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1381
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1549
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 84,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": false,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the correct Kraus representation by applying the given operators to the channel definition E(ρ) = Σ_i A_i ρ A_i†. They correctly compute: A₀ρA₀† = (1 - 3p/4)ρ and A_iρA_i† = (p/4)σ_iρσ_i for i=1,2,3 (X,Y,Z). Summing yields E(ρ) = (1 - 3p/4)ρ + (p/4)(XρX + YρY + ZρZ). This matches option C exactly. The key logical consistency checks — algebraic verification of the identity (1 - 3p/4)ρ + (p/4)Σ = (1 - p)ρ + (p/4)(ρ + Σ), trace preservation via Σ_i A_i†A_i = I, and rejection of options A/B due to nonlinear ρ² terms — are rigorously applied by both. Option D is invalid because it incorrectly assumes p/3 coefficients, which would require different Kraus operators (e.g., √(p/3)σ_i), contradicting the given ones. The agreement is sound and fully grounded in first principles.",
+      "action_1": "Overthinking",
+      "action_2": "Stubbornness",
+      "exit_mode": "AT",
+      "turns": 2,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 1,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1466
+        },
+        {
+          "turn": 2,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1501
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1037
+        },
+        {
+          "turn": 2,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1651
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high",
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 91,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants now agree on the correct reasoning: the maximum number of unique full-length proteins is limited by the physical number of DNA molecules in the aliquot (~6×10¹³), which is smaller than the theoretical protein space (20¹² ≈ 4×10¹⁵). The binding constraint is the molecule count, not the theoretical codon or protein diversity. Thus, the order of magnitude is 10¹³ (option A). Consultant 1's original reasoning was sound and self-consistent; Consultant 2 correctly retracted their initial error and aligned with the correct logic. The agreement is well-founded, logically coherent, and grounded in first principles.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1596
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1534
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 99,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the mechanism: CF4 plasma grafts low-surface-energy CFx groups, reducing solid surface energy without altering roughness. This increases both contact angles per Young's equation and Zisman's framework. Consultant 1 correctly applies the principle that on smooth surfaces, higher liquid-vapor surface tension (γ_LV) leads to higher contact angle—water (72 mN/m) > oil (25–40 mN/m), so θ_water > θ_oil. Consultant 2 reinforces this with Owens-Wendt calculations and confirms that a smooth fluorocarbon surface cannot be more oleophobic than hydrophobic. Both reject A due to reversal of expected order, B and C due to angle decreases, and converge on D. The reasoning is logically coherent, consistent with first principles, and self-consistent across traces. Agreement status is 'agree', and the shared answer D is sound.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1301
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1674
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 101,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the correct decomposition of three spin-½ particles: (½⊗½)⊗½ = S=3/2 ⊕ S=½ ⊕ S=½, resulting in one quadruplet (4 states) and two degenerate doublets (2 + 2 = 4 states), totaling 8 states consistent with the Hilbert space dimension 2³ = 8. The Hamiltonian H ∝ S² − 9/4 confirms that energy depends only on total spin S, with E = λ for S=3/2 and E = −λ for S=1/2, and the full permutation symmetry ensures both S=½ states are degenerate. Option D matches this exactly. Consultant 1's earlier error (answering B) is corrected in their latest trace, and Consultant 2’s analysis is self-consistent and aligns with first principles. No contradictions exist in either trace, and both converge on D. The agreement is well-supported by logic, definitions, and consistency.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1129
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1352
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 109,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "B",
+      "c2_answer": "A",
+      "consensus": false,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "consultant_2",
+      "judge_exit": "disagree",
+      "judge_reason": "Consultant 2's reasoning is logically coherent, self-consistent, and grounded in first principles. The derivation correctly applies the equilibrium temperature formula (T_eq ∝ 1/√a) and Kepler's third law (P ∝ a^(3/2)), leading to a3/a1 = 10.37 and P3/P1 ≈ 33.4. This value exactly matches option A. Consultant 1 incorrectly asserts that 33.4 is not among the options, despite option A explicitly stating '~33.4'. This misreading undermines their conclusion, even though their intermediate steps are correct. Consultant 2 properly identifies this error, audits distractors, and validates that only A corresponds to the full calculation. The disagreement stems from a factual misreading by Consultant 1, not a physical or logical error. Therefore, Consultant 2's argument is superior.",
+      "action_1": "Stubbornness",
+      "action_2": "Persistence",
+      "exit_mode": "DC",
+      "turns": 5,
+      "swap": false,
+      "stop_reason": "budget_exhausted",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 5,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1245
+        },
+        {
+          "turn": 2,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1325
+        },
+        {
+          "turn": 3,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1398
+        },
+        {
+          "turn": 4,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1146
+        },
+        {
+          "turn": 5,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1247
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1255
+        },
+        {
+          "turn": 2,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1276
+        },
+        {
+          "turn": 3,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1430
+        },
+        {
+          "turn": 4,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1342
+        },
+        {
+          "turn": 5,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1289
+        }
+      ],
+      "conf_1": [],
+      "conf_2": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 112,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same correct IUPAC name by applying consistent, logical steps grounded in first principles: (1) identifying the parent chain (benzoic acid), (2) enforcing the meta relationship among COOH, CHO, and CN, (3) placing OMe para to COOH, and (4) using ortho constraints to fix substituent positions. They correctly identify a mirror-image numbering ambiguity and apply the IUPAC tie-break rule—lowest locant to the alphabetically first prefix (cyano > dimethylamino > formyl > hydroxy > methoxy)—to assign CN to C3. The resulting name, 3-cyano-6-(dimethylamino)-5-formyl-2-hydroxy-4-methoxybenzoic acid, matches option B. Both reject D due to incorrect alphabetical ordering of prefixes and dismiss A/C for violating the lowest-locant rule. Their reasoning is self-consistent, fully aligned with standard IUPAC rules, and converges on the same valid conclusion.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1388
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1510
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 118,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the correct answer (D) and provide logically sound, self-consistent reasoning grounded in first principles. They correctly identify the Grover iterator G as a rotation by angle 2θ in a two-dimensional subspace, with sinθ = 1/√N. The eigenvalues of a rotation by φ are e^{±iφ}, so for φ = 2θ, the eigenvalues are e^{±i2θ} = cos2θ ± i·sin2θ, matching option D. Both traces confirm this via matrix representation, characteristic polynomial, and consistency with standard Grover algorithm dynamics. Consultant 1 initially erred by using θ/2 but corrected it; Consultant 2 correctly applies linear algebra without deviation. No contradictions exist in definitions or intermediate steps. The agreement is well-founded.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1708
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1363
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 114,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the correct sequence of energies: 10E (ground), 15E (first excited), and 18E (second excited). Their reasoning is logically consistent, grounded in first principles (Pauli exclusion, single-particle level structure E_n = n^2 E, spin degeneracy), and aligned with proper occupation notation. The ground state (1)^2(2)^2 = 10E is unambiguous. The first excited state (1)^2(2)^1(3)^1 = 15E correctly reflects a single-particle promotion from n=2 to n=3. For the second excited state, exhaustive enumeration confirms that promoting one particle from n=1 to n=3 yields (1)^1(2)^2(3)^1 = 18E, which is lower than alternatives like (1)^2(3)^2 = 20E or (1)^2(2)^1(4)^1 = 22E. Option B is invalid because it assigns a ground state energy of 4E, requiring all four fermions in n=1, violating Pauli exclusion. Both consultants correctly reject this. The consensus answer A is sound and well-justified.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1054
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1638
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 115,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently arrive at the correct count of 6 distinct stereoisomers by analyzing the self-metathesis of racemic 3-methylpent-1-ene. They correctly identify the dimer as 4,5-dimethyloct-4-ene with two stereocenters (C3 and C6) and E/Z alkene isomerism at C4=C5. The three stereochemical combinations—(R,R), (S,S), and meso-(R,S)—each exist in E and Z forms, yielding six distinct compounds. The meso forms are achiral due to symmetry (inversion center for E, mirror plane for Z), while (R,R) and (S,S) form enantiomeric pairs. Both consultants properly reject merging enantiomers or assuming symmetry reduces the count, adhering to standard convention that enantiomers and diastereomers are distinct products. Their reasoning is logically coherent, consistent in definitions and intermediate steps, and grounded in first principles. Agreement status is 'agree', and the shared answer is sound.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1390
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1186
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 127,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants correctly identify that the observation of all short-tailed offspring contradicts the expectation that A1/A1 individuals should be long-tailed. They both rule out options A, C, and D through logical analysis: A fails because A2 imprinting would not explain short tails in A1/A1 offspring and would predict long tails in A1/A2; C is contradicted by the known recessive nature of A1; D is irrelevant since 50 cM implies independent assortment, which already predicts a 50% long-tail expectation. Only option B—B1 modifying A1/A1 homozygotes to produce short tails—explains why all F1 are short-tailed. Both traces are logically sound, use consistent definitions, and derive the conclusion from first principles without unsupported assertions. The agreement status is 'agree', and the reasoning is robust.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1753
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1081
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 131,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same physical expression U = -(1/2)kq²R/(d² - R²), correctly identifying the 1/2 factor due to the dynamic nature of the image charge during assembly. They agree on the setup, the naive interaction energy, and the justification for halving it. Consultant 1 initially mislabels this as option D (which contains R²), but this is a transcription error; their derivation matches option C. Consultant 2 correctly maps the result to option C. Dimensional analysis confirms that option D has incorrect units (energy × length), while option C has correct energy units. The force-integral verification in both traces yields consistent results. Therefore, the shared answer C is physically and mathematically sound.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1443
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1210
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 136,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same correct result using first-principles relativistic kinematics and classical momentum conservation. Consultant 1 correctly applies the relativistic two-body decay formula, yielding T₁_rel = 1005 MeV, while the classical approximation gives T₁_cl = 1000 MeV, resulting in a 5 MeV difference. Consultant 2 confirms this via direct computation and verifies that the competing position (B) relies on an arithmetic error in momentum balance. The agreement is consistent, logically sound, and self-consistent across both traces. The final answer D (5 MeV) is robustly supported.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1047
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 987
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 134,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same molecular formula C11H12O2 through consistent, step-by-step reasoning grounded in first principles: unsaturation index (DBE = 6), NMR signal count (12H total, matching C11H12O2), absence of CH2 signals, and fragment assembly. Consultant 1 correctly identifies the ester as methyl ester (-COOCH3) and rejects C12H14O2 due to an extra CH2 that would appear in NMR. Consultant 2 confirms via proton balance and atom sum that C12H14O2 cannot be valid if all fragments are accounted for—its own stated fragments sum to C11H12O2, revealing an internal contradiction. The data uniquely support a para-disubstituted benzene ring with a propenyl chain and a methyl ester, consistent with methyl 4-propenylbenzoate. The agreement is sound and logically airtight.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1244
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1176
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 137,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the correct physical framework: distance modulus d = 10^((m − M − A_V)/5 + 1) pc, with A_V = 3.1 × E(B-V). They both correctly compute the normalized distance moduli and derive the same set of distances: a) 10.0 pc, b) 6.31 pc, c) 15.85 pc, d) 4.74 pc, e) 7.52 pc, f) 10.0 pc. The correct ordering is d < b < e < a = f < c. Option D (d < b < f < c) matches this order exactly. Both consultants independently validate that only D is consistent with the derived distances. Consultant 1 initially made arithmetic errors but corrected them; Consultant 2 explicitly identifies and rejects the consultant's own incorrect numbers as inconsistent with the algebra. Their reasoning is logically sound, self-consistent, and grounded in first principles. Agreement status is 'agree', and the shared answer D is correct.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 875
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1147
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 139,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants correctly identify the 16.0 Hz coupling as diagnostic for trans (E) geometry, ruling out cis isomers (A, D). The integration (1+1+3+3 = 8H) and absence of a 2H OCH2 signal near 4.6 ppm rule out butenyl acetate (which would require C6H10O2 with 10H and an OCH2 group). The 5.5 ppm dq signal is fully explained by coupling to the trans vinylic proton (J = 16 Hz) and the allylic methyl (J ~7 Hz), consistent only with CH3COO-CH=CH-CH3 in trans configuration. Both reasoning traces are logically coherent, self-consistent, and grounded in first principles: chemical shift, integration, coupling constants, and molecular formula constraints. No contradictions exist.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1043
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1219
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 141,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently arrive at answer B through logically consistent, self-contained reasoning. They correctly identify that persistent Cas9 protein activity during early cleavage divisions leads to repeated DNA cutting and differential repair (HDR vs NHEJ) in daughter cells, resulting in lineage-specific genotypes — the established mechanism of mosaicism in embryo genome editing. Option A is rejected due to biochemical implausibility: gRNA is an RNA guide, not a stable integrative complex; donor DNA acts as a repair template, not a self-integrating entity. Option C is implausible because reverse transcription of Cas9 mRNA into cDNA lacks a plausible cellular pathway in this context. Option D is biologically nonsensical: surrogate maternal DNA cannot be delivered into embryonic cells via CRISPR components. The reasoning traces are coherent, definitions align with standard molecular biology principles, and both consultants consistently reject alternatives. Agreement status is 'agree', and the shared conclusion is sound.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1630
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1433
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 147,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently arrive at the same correct calculation: total moles of OH⁻ (0.18 mol) exceed total H⁺ from strong acid (0.08 mol) and weak acid (0.05 mol), leaving 0.05 mol excess OH⁻ in 1.2 L, giving [OH⁻] = 0.0417 M, pOH = 1.38, pH = 12.62. The reasoning is logically coherent, self-consistent, and grounded in first principles: neutralization occurs stepwise (strong acid first, then weak acid), and the presence of excess strong base suppresses acetate hydrolysis. Consultant C's claim of a buffer at pH 8.92 is invalid because all CH₃COOH is consumed, and no significant equilibrium exists when strong base dominates. Both traces correctly reject this erroneous interpretation.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 970
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1007
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 145,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the final answer D (251.271 fm) and provide consistent, self-contained reasoning grounded in the optical theorem and partial-wave analysis. The correct formula for the forward imaginary part of the scattering amplitude is Im f(0) = (1/k) Σ (2ℓ+1) sin²δℓ, which both consultants apply accurately. They correctly compute the phase-shift contributions: sin²(90°)=1, sin²(67°)≈0.847, sin²(55°)≈0.671, sin²(30°)=0.25, sin²(13°)≈0.051, leading to Σ(2ℓ+1)sin²δℓ ≈ 9.10. Using nonrelativistic kinematics for 50 MeV electrons, k ≈ 0.0362 fm⁻¹, so 1/k ≈ 27.6 fm, yielding Im f(0) ≈ 27.6 × 9.10 ≈ 251.27 fm. Consultant 1 initially errs by using sin(2δℓ) and an incorrect prefactor (k/4π), but recognizes and corrects this error. Consultant 2 directly uses the standard formula and arrives at the same result with clearer justification. The consistency in units, derivation, and numerical evaluation confirms the correctness of D. Both traces are logically sound, align with first principles, and converge on the same result.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1046
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1268
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 146,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree that QED (A) and QCD (D) require UV regularization due to divergent loop integrals, correctly ruling them out. The key divergence lies in whether Classical Electrodynamics (C) requires high-energy regularization: Consultant 1 correctly identifies the Coulomb self-energy singularity as a genuine UV divergence necessitating classical regularization (e.g., Abraham-Lorentz models), while Consultant 2 correctly counters the notion that point-charge ED is free of UV issues. Regarding Superstring Theory (B), both agree that its perturbative amplitudes are UV finite due to the extended nature of strings and modular invariance, which maps UV singularities to IR regions—no high-energy regularization is ever required. The reasoning in both traces is logically coherent, consistently applies definitions (UV = short distance/high energy), and aligns with first principles. The agreement is sound and well-supported.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1569
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1599
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 150,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently identify the correct transformation pathway: the carboxylic acid must be converted directly to an acyl azide (carbonyl azide) in step A, which is achieved exclusively by DPPA. PCl5 produces an acid chloride, not an acyl azide, so Option A is invalid. NaN3 alone (Option C) cannot activate a carboxylic acid to an acyl azide. For step B, only H3O+/heat correctly facilitates the Curtius rearrangement (loss of N2, migration to isocyanate) followed by hydrolysis to the primary amine. NaN3 (Option B) would not effect this transformation. The stereochemical inversion (3r,5r,7r) → (3s,5s,7s) is consistent with CIP priority reversal upon substitution of CO2H by NH2, not stereospecific inversion — thus not diagnostic of mechanism. Both consultants correctly reject incorrect reagents based on first-principles reasoning about functional group interconversions and reaction mechanisms. Their reasoning is logically coherent, self-consistent, and aligned with chemical logic.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1308
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1471
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 159,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently compute the vibrational energy transition ΔE = ħω = 4.22×10^-20 J, leading to photon momentum p = ΔE/c = 1.41×10^-28 N·s, which rounds to option D (1.4×10^-28 N·s). The rotational transition yields p ≈ 1.5×10^-31 N·s, which does not match any option and is therefore ruled out. Consultant 2 correctly identifies their prior answer B as inconsistent with calculations. Both traces are logically coherent, use consistent units, and derive results from first principles. The agreement is robust and well-supported.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1241
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1285
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 162,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": false,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants provide logically coherent, self-consistent reasoning grounded in first principles: deprotonation by KH or LDA leads to alkoxide formation, followed by intramolecular cyclization for A and acyl transfer for B. The mechanistic steps align with the reaction conditions—basic environments (KH, LDA) favor salt formation, not free acids. Option C correctly identifies A as decahydro-7H-benzo[7]annulen-7-one via spirovinyl rearrangement and B as lithium 3-ethylpent-4-enoate due to retention of the lithium counterion under excess base. Options A and D misidentify A as a bicyclic ketone, which contradicts the spirocyclic starting material's expected rearrangement pathway. Options B and D incorrectly predict a free carboxylic acid for B, inconsistent with basic conditions. The agreement between consultants reinforces the correctness of the shared answer.",
+      "action_1": "Overthinking",
+      "action_2": "Stubbornness",
+      "exit_mode": "AT",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 1,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 843
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "C",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1300
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 165,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants correctly identify that the H2O2/OH- condition is part of the hydroboration-oxidation sequence, requiring a terminal alkene as substrate A and BH3/THF as reagent B. The reasoning in both traces is logically consistent: they correctly reject options A (Pt/H2), B (aldehyde + BH3/THF), and C (aldehyde + Pt/H2) due to incompatibility with the reaction conditions or outcome. Option D matches the required chemistry—hydroboration of 2-methylhex-1-ene with BH3/THF followed by H2O2/OH- gives anti-Markovnikov addition of OH to the terminal carbon, yielding 2-methylhexan-1-ol. Consultant 1 initially mislabeled the answer as A but corrected it; Consultant 2 consistently applies correct logic. The agreement is valid, and the shared answer D is sound.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1365
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1499
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 166,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the Clebsch-Gordan expansion of |2,-1> = (1/√2)(|0,-1> + |-1,0>), and correctly identify that the component |−1,−1⟩ has zero amplitude. The joint event L1z = −ħ AND L2z = −ħ corresponds exactly to the state |m1=−1, m2=−1⟩, which is orthogonal to the given coupled state. Therefore, the probability is zero. Consultant 1 initially misinterpreted 'both electrons' as a marginal or union event (leading to C), but explicitly corrects this in their reasoning trace by recognizing that the question asks for the joint probability. Consultant 2 consistently interprets the question correctly as a joint event and rejects the alternative interpretation as invalid based on logical and physical consistency (sum of m values must be −1). Both now concur on B, and their reasoning is fully self-consistent, grounded in first principles (conservation of total m, orthogonality of states with different m), and aligns with the definitions provided.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1162
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 995
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 168,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same intermediate results: free [Fe3+] = 1.43×10^-21 M, leading to E = -0.34 V via the Nernst equation. Consultant 1 correctly identifies this as option A. Consultant 2 initially incorrectly selects B but explicitly acknowledges in their latest position that their own calculations support A and that their prior choice was a transcription error. The reasoning is logically coherent, self-consistent, and grounded in first principles (Nernst equation, complexation equilibrium, conditional potential). No alternative pathway yields +0.52 V from the given data. The agreement is valid and both now converge on A.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1378
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1067
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 175,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on answer C and provide logically coherent, self-consistent reasoning. They correctly distinguish between the roles of Ring1B in catalytic (H2AK119ub) versus structural (chromatin compaction) functions within PRC1. Consultant 1 emphasizes that complete absence of Ring1B destabilizes PRC1 complexes, preventing chromatin compaction even with PRC2 binding. Consultant 2 reinforces this by noting that in option D, PRC1 remains structurally intact and can compact chromatin non-catalytically. The definitions of 'open chromatin' as increased accessibility are consistently applied. The reasoning is grounded in first principles—structural integrity of PRC1 versus catalytic activity—and aligns with known mechanisms from cited literature (Eskeland et al., 2014). No leaps or inconsistencies are present. The agreement is justified.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1126
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1710
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 174,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently arrive at the same correct ranking (D) through logically coherent, self-consistent reasoning grounded in first principles of electronic effects. Consultant 1 correctly identifies that +M resonance donation from oxygen in 1 and 5 stabilizes the cation, while π-acceptor groups (NO2, CHO, COR) destabilize adjacent carbocations via -M/-I effects. The key discriminator is the β-chlorine in 7 causing only -I destabilization (no resonance), making it less stable than the simple primary cation 6 — ruling out option A and C. Consultant 2 reinforces this by explicitly rejecting option C as contradicting its own premises about resonance stabilization and EWG strength. Both traces align on the normalized order: oxocarbenium ions (1,5) > alkyl cation (6) > β-halo cation (7) > carbonyl-substituted (4,3) > nitro (2). The final ranking D matches this. No inconsistencies or unsupported leaps are present.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1164
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1355
+        }
+      ],
+      "conf_1": [
+        "medium"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 181,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the final answer (C, ~2.23) and their reasoning traces are logically coherent, self-consistent, and grounded in first principles. They correctly apply the Stefan–Boltzmann law and Wien's law, account for the relativistic Doppler shift due to Star_2's radial velocity, and derive the temperature ratio using the correct sign convention: a receding star has a rest-frame peak wavelength shorter than observed, so its intrinsic temperature is higher. This leads to T₁/T₂ < 1, which reduces the luminosity ratio slightly below 2.25. Consultant 2’s use of the full relativistic formula √[(1−β)/(1+β)] is accurate and superior to the first-order approximation used by Consultant 1, though both arrive at numerically similar results. The numerical check confirms L₁/L₂ ≈ 2.23, matching option C. Option D (2.25) corresponds to ignoring Doppler shift, which contradicts the given radial velocity information. The presence of both 2.23 and 2.25 as options indicates that the small correction is intended. Thus, the agreement is valid and well-supported.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1496
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1425
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 187,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently apply the correct relativistic velocity subtraction formula and sum the relativistic energies using Lorentz factors. They agree on v_rel ≈ 0.14c (with proper sign convention) and E ≈ 5.96mc², which aligns with first principles of special relativity. Consultant 1 correctly identifies Position A’s errors (superluminal speed and dimensional inconsistency), while Consultant 2 reinforces this with a clear restatement of formulas and elimination of alternatives. The reasoning is logically coherent, self-consistent, and grounded in fundamental equations. No flaws are detected in either trace. The agreement is robust and sound.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1233
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1134
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 185,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants correctly identify the scaling law h ∝ M_c^(5/3) f^(2/3) / D and derive DA/DB = (M_c,A / M_c,B)^(5/3). They independently recompute the chirp masses: M_c,A ≈ 13.5 M☉ and M_c,B ≈ 36.3 M☉, yielding a ratio of ≈0.372. Raising this to the 5/3 power gives ≈0.19. Consultant 2 provides a cross-check using an equivalent algebraic form: (m1A/m1B) × (m2B/m2A)^(1/3) × (m1B+m2B)/(m1A+m2A)^(1/3), which confirms ~0.19. The error in Consultant 1's initial calculation was arithmetic, and both now converge on the same result. The shared answer of ~0.19 is logically sound and self-consistent.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 829
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 877
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 196,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "The reasoning traces from both consultants are logically consistent and grounded in first principles. They correctly identify that the sequence contains an in-frame TGA stop codon at position 34–36 (codon 12), which terminates translation prematurely after only 11 amino acids—just after the HA tag. This explains the complete absence of full-length GADD45G protein, regardless of proteolysis or linker considerations. Option D is unambiguously supported by the genetic code and translation mechanics. The presence of a stop codon in-frame prevents ribosome elongation entirely, making any downstream protein expression impossible. Options A, B, and C are inconsistent with the evidence: no tRNA deficiency in mice is indicated, the HA tag sequence is correct (no missense mutation), and proteolysis cannot explain the absence of any detectable full-length protein if translation initiated. Both consultants arrive at the same conclusion through coherent, step-by-step analysis, and their agreement is justified.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 964
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1392
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 201,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the correct output by correctly applying the non-standard C-NOT gate that flips the target only when the control qubit is |0⟩. They both recognize the input state as (α|0⟩ + (β−γ)|1⟩) ⊗ |0⟩, and correctly apply the gate: the α|0⟩ component triggers a bit-flip on the target (|0⟩ → |1⟩), while the (β−γ)|1⟩ component leaves the target unchanged. This yields exactly option D. Option C incorrectly assumes no transformation occurs, contradicting the gate's stated condition. Option B corresponds to a standard CNOT (control-on-|1⟩), and option A applies an unconditional flip. The reasoning in both traces is logically sound, self-consistent, and grounded in first principles. Agreement is confirmed.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1210
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1377
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 202,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the correct answer (A) and their reasoning traces are logically coherent, self-consistent, and grounded in first principles. They correctly interpret the qPCR Ct values (Ct 20 < 40 confirms positivity), reject D for inverting the logic (lower Ct = higher viral load), and dismiss B and C due to strong evidence of RNA purity (A260/280 = 2.1 and 2.2) and successful amplification in sample B using the same kit. The key insight—methyl red is pH-sensitive and remains yellow at alkaline pH (~9), preventing color change despite LAMP amplification—is correctly identified in both traces. Although Consultant 2 notes pH = 9 is asserted rather than measured (medium confidence), this does not undermine the mechanistic plausibility or logical consistency of the conclusion. Thus, the shared answer A is sound and well-supported.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1769
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1699
+        }
+      ],
+      "conf_1": [
+        "medium"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 207,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants correctly identify that the wind from the North necessitates avoiding northern pointing directions. The key criterion is declination: negative declination corresponds to southern sky, which is away from the wind. Star1 (Dec = -45°) is the most southerly target, making it the optimal choice. Consultant 1 provides a thorough and self-consistent reasoning trace, including normalization of RA irrelevance and site latitude context (La Silla at ~-29°), confirming that Star1 is well south of the observatory's zenith. Consultant 2’s trace is incomplete and ends with an incorrect answer (A), but its rephrased common frame correctly identifies that the southernmost target should be chosen. Despite the flaw in Consultant 2's final step, both consultants converge on B as the correct answer through valid principles. The agreement is sound and logically justified.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1126
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1253
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 214,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": false,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently analyze the same clinical data: normocytic, normochromic anemia (MCV 83 fL), normal ferritin (112 µg/L), elevated RDW (19%), and a history of metastatic cancer with planned chemotherapy. The absence of macrocytosis rules out B12/folate deficiency (contradicting Option A). IV iron (D) is not indicated due to adequate ferritin (>100 µg/L), and switching oral folate to IV (C) offers no benefit without documented deficiency. Erythropoietin (B) is the only intervention supported by guidelines for non-transfusion management of anemia in cancer patients with HGB <10 g/dL, especially when oral iron and folate have failed. Both consultants correctly eliminate alternatives and converge on B. Reasoning is logically coherent, units are normalized, and conclusions are grounded in first principles. Agreement status is 'agree' and the shared answer is sound.",
+      "action_1": "Stubbornness",
+      "action_2": "Overthinking",
+      "exit_mode": "AT",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1464
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1537
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 219,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the initial setup: 1.00 mmol acetic acid, diluted to 40.00 cm³ (0.025 M), with pKa = 4.73. At 25% titration, 0.25 mmol NaOH added gives a buffer ratio [Ac⁻]/[HAc] = 1/3. Using Henderson-Hasselbalch: pH = 4.73 + log(1/3) ≈ 4.26. This matches option A. At equivalence point, 1.00 mmol NaOH added (10.00 cm³), total volume 50.00 cm³, [Ac⁻] = 0.020 M. Kb = 1.0×10⁻¹⁴ / 1.85×10⁻⁵ = 5.41×10⁻¹⁰. [OH⁻] = √(Kb·C) = √(1.08×10⁻¹¹) ≈ 3.29×10⁻⁶, pOH = 5.48, pH = 8.52. This is consistent with option A. Consultant 2’s trace is more precise in unit handling and intermediate steps but both arrive at identical correct values. Option D (4.57; 6.92) is invalid: 4.57 does not match the buffer calculation (which must be ~4.26), and pH at equivalence for weak acid/strong base must exceed 7, not 6.92. Option B is too acidic for a buffer with 1:3 ratio. Option C assumes no hydrolysis (pH=7), which is incorrect for acetate. Thus, only A is self-consistent and logically derived from first principles.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1353
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1449
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 223,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same conclusion (IHD = 1) using consistent, first-principles reasoning. Consultant 1 correctly identifies that red P/excess HI is a strong reducing system capable of reducing C=C bonds, C=O groups (aldehyde and carboxylic acid), and thus eliminates all unsaturation except the cyclohexane ring. Consultant 2 confirms this via direct calculation: the product is 1,2,5-trimethylcyclohexane (C9H16), yielding IHD = (2×9 + 2 − 16)/2 = 1. The competing option C (IHD = 5) corresponds to the reactant’s unsaturation, not the reduced product, and is therefore invalid. Both traces are logically coherent, use normalized terminology, and cross-check their results. The agreement is sound.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1340
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1059
+        }
+      ],
+      "conf_1": [
+        "medium"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 210,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently converge on option D (2-(4-methylstyryl)oxirane) through rigorous, self-consistent reasoning grounded in first principles. They correctly interpret the molecular formula C11H12O, align spectral data (1H/13C integrals, chemical shifts, multiplicities), and identify the product as (E)-4-(4-methylphenyl)but-3-en-2-one. The key diagnostic features—AA'BB' aromatic doublets (4H, para-substituted ring), two singlets at δ 2.28 and 2.31 (methyl groups), conjugated carbonyl at δ 197.7 ppm—are fully consistent with a p-tolyl group and a ketone-enone system. Consultant 1 and 2 both rule out A and C due to incorrect substitution patterns (monosubstituted phenyl vs. para-disubstituted), and B is rejected outright by formula (C10H10O ≠ C11H12O). The mechanism—Meinwald-type hydride shift in DABCO-catalyzed epoxide rearrangement—is chemically sound and uniquely explains the transformation from oxirane to enone. No logical leaps or inconsistencies are present in either trace. Their agreement is robust and well-supported.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1590
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1646
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 232,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants provide logically coherent, self-consistent reasoning grounded in first principles of molecular genetics. They correctly clarify that junction-specific PCR does not require amplifying the entire 300 kb duplication—only a small amplicon across the novel tandem junction (typically 0.5–2 kb), which is well within standard PCR capacity. Southern hybridization is valid as it detects increased copy number via altered fragment sizes and hybridization intensity. The size of the duplication (300 kb) does not preclude PCR, nor does it necessitate PFGE, since the rearrangement is local and chromosomal differences are minor (4 Mb vs 3.7 Mb). Consultant 1 correctly identifies that the premise behind option A—that PCR cannot be used—is false. Consultant 2 reinforces this with clear definitions of technical limits (PCR: ≤10–20 kb amplicons; Southern: ≤20–50 kb fragments), and dismisses option C (PFGE) as unnecessary. Both agree on B, and their arguments are mutually supportive and robust. No substantive counter-evidence is presented against either method. The shared answer B is sound and well-justified.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1477
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1661
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 230,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": false,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants correctly compute the distance traveled in 1e-5 s: zeta (2880 m), lambda (2790 m), eta (2700 m), chi (2640 m), all significantly less than 13000 m. Thus, no particles reach the ground within Δt. The tie-breaker must rely on production counts: zeta (30000) > lambda (24000) > eta (20000) > chi (19000), yielding order C. Consultant 1 derives this via explicit reasoning and cross-checks with physical consistency (e.g., gamma and N0·v rankings), while Consultant 2 validates the arithmetic and dismisses earlier erroneous claims. Both converge on C with sound logic and consistent units. The problem is underspecified regarding time dilation or decay, but the only self-consistent interpretation is that zero particles reach ground, so ranking defaults to initial production counts. No evidence supports A, B, or D.",
+      "action_1": "Stubbornness",
+      "action_2": "Overthinking",
+      "exit_mode": "AT",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1392
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1201
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 235,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants correctly identify that the state |ψ⟩ is not normalized, as ⟨ψ|ψ⟩ = 23/15 ≠ 1. The expectation value of a Hermitian operator like H must be computed using normalized probabilities: p_n = |c_n|² / ⟨ψ|ψ⟩. Both trace the correct steps: computing ⟨ψ|H|ψ⟩ = 81/15 E_o and dividing by ⟨ψ|ψ⟩ = 23/15 to obtain 81/23 E_o. Option A (81/15 E_o ≈ 5.4 E_o) exceeds the maximum eigenvalue 4E_o, violating the spectral bound for Hermitian operators—physically impossible. Option B (81/23 E_o ≈ 3.52 E_o) lies within [E_o, 4E_o], confirming consistency. The reasoning in both traces is logically sound, self-consistent, and grounded in first principles. Agreement is reached, and the shared answer is correct.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 2,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 1,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1179
+        },
+        {
+          "turn": 2,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 945
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": true,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": null,
+          "raw_len": 1008
+        },
+        {
+          "turn": 2,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1114
+        }
+      ],
+      "conf_1": [
+        "high",
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 239,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the core chemical transformations: LDA generates the enolate, which undergoes aldol addition with benzaldehyde to form a β-hydroxy ketone (product 1), followed by acid workup. Excess DAST converts the secondary alcohol to a fluoride (via SN2 inversion) and the ketone to a geminal difluoride. This rules out Option A (which retains a hydroxyl group) and B (which leaves the ketone intact). Options C and D share the correct constitutional structure: a cyclohexane ring with a 2,2-difluorocyclohexyl substituent and a benzylic fluoromethyl group. The key difference lies in stereochemistry. Consultant 1 asserts specific stereochemistry based on a presumed diastereoselective aldol step yielding an (S)-configured benzylic carbon, inverted by DAST to (R), consistent with D. Consultant 2 correctly notes that the aldol reaction is racemic due to no chiral control, meaning the product is a racemic mixture, so stereochemical descriptors like (R) or (S) are nominal. However, since the question asks for 'the structure' of product 2, and both C and D represent valid stereoisomers within the racemic set, the choice between them hinges on consistency with the mechanism. The chemically sound outcome is that DAST inverts the benzylic center via SN2, and if the initial aldol adduct is racemic, then both (R) and (S) configurations at the benzylic carbon are present. But since the answer options assign fixed stereochemistry, only one can be selected. Consultant 1's reasoning is more coherent: they assume a single diastereomer forms (likely from kinetic control), invert it via DAST, and arrive at D as a plausible, specific product. Consultant 2 correctly identifies that the reaction is racemic but still settles on D, likely because the drawn structure in the original question may imply a particular stereochemistry. Given that both agree on D, and the structure of D matches the expected transformation (gem-difluoride + benzylic fluoride), while A and B are chemically invalid, the shared answer D is sound. Thus, the agreement is justified.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 906
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 2028
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 244,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the core chelation hypothesis: the insolubility of KHT arises from a neutral, self-contained contact-ion-pair complex where the hydrogen tartrate monoanion chelates K+ via carboxylate oxygen, COOH carbonyl, and both C2/C3 hydroxyl oxygens. This chelation is disrupted in acid (protonation) or base (second deprotonation), leading to solubility. The key difference lies in experimental verification: Consultant 1 (A) proposes ketalization with acetone to form an acetonide, which selectively blocks the OH donors without altering the carbon framework or introducing new coordinating sites. Consultant 2 (D) initially favored oxidation to ketones, but re-evaluated and aligned with A after recognizing that oxidation introduces potentially coordinating sp2 carbonyls and risks side reactions like C–C cleavage. Both now conclude A is superior due to its selectivity, mild conditions, and minimal structural perturbation. Option A’s test is chemically cleaner and more directly diagnostic than D’s oxidation or C’s impractical methylation. Option B is irrelevant as stereochemistry does not explain the acid/base solubility behavior. The shared answer A is logically consistent, well-justified, and grounded in first principles of coordination chemistry and protecting group strategy. Confidence is medium due to the subtlety of the chelation model, but the reasoning is sound.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 2144
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1760
+        }
+      ],
+      "conf_1": [
+        "medium"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 252,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on answer C and provide consistent, logically sound reasoning grounded in first principles: FTIR confirms a carboxylic acid (broad 3000 cm⁻¹, strong 1700 cm⁻¹), leaving ¹H NMR splitting patterns as the key discriminator. The dtq signal requires a proton coupled to three distinct spin systems (1H + 2H + 3H), while the dtt signal requires coupling to 1H + 2H + 2H. Only option C (CH3C(H)(C2H5)C(H)(C2H5)CH2COOH) contains both a CH group with ethyl and methyl neighbors (yielding dtq) and a CH group adjacent to two CH₂ groups and one CH (yielding dtt). A, B, and D fail to produce both multiplets simultaneously. The reasoning is self-consistent, definitions are properly normalized, and eliminations are complete. No logical gaps or unsupported assertions exist.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1215
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1168
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 264,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "A",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": false,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants converge on the same answer (B) through consistent reasoning grounded in the prompt's wording and arithmetic constraints. The key point is that the prompt explicitly states 'the spots suggest the presence of starting material, product, and solvent,' which directly implies A = three spots, eliminating options A and C. Among the remaining choices (B and D), only 44.44% (4/9) matches the actual product yield (4 g) when paired with a theoretically defensible denominator (~9 g). This theoretical yield arises from assuming 7 g of benzoic acid was consumed (10 g initial - 3 g recovered), yielding ~8.6 g → rounded to 9 g. While the strict stoichiometric yield is 32.5%, the option set uses ninths (4/9, 5/9, etc.), indicating a design choice favoring this rounding. Thus, B is the only internally consistent and textually supported choice. Despite numerical imperfection, the reasoning is logically coherent and self-consistent.",
+      "action_1": "Stubbornness",
+      "action_2": "Overthinking",
+      "exit_mode": "AT",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1976
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1491
+        }
+      ],
+      "conf_1": [
+        "medium"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 265,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "A",
+      "c2_answer": "A",
+      "consensus": true,
+      "judge_answer": "A",
+      "judge_correct": false,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on answer A and provide logically consistent, chemically sound reasoning. They correctly identify that the acetyl group is a strong meta-director, requiring its installation early to ensure subsequent bromination and nitration occur at the meta positions relative to it (C3 and C5). Consultant 1 correctly identifies that option B fails due to aniline's inability to undergo Friedel-Crafts acylation under acidic conditions (AlCl3 complexation) and misordering of steps in their own trace. Consultant 2 reinforces this by noting that NH2 is ortho/para-directing and would not lead to the required 1,3,5-trisubstitution pattern. Option C fails because Friedel-Crafts acylation cannot proceed on a nitro- or bromo-substituted benzene ring after both groups are present. Option D is invalid as it regenerates benzene before acylation, leading to para-bromoacetophenone instead of the desired meta-substituted product. Both consultants recognize that steps iv-vii in A are superfluous but do not invalidate the sequence, as the target is formed by step iii. The reasoning is self-consistent, uses first principles (directing effects, functional group compatibility), and aligns with the correct outcome. No contradictions exist between the two traces.",
+      "action_1": "Stubbornness",
+      "action_2": "Overthinking",
+      "exit_mode": "AT",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1625
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "A",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1464
+        }
+      ],
+      "conf_1": [
+        "medium"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 271,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants correctly identify the experimental observation—overexpression of Y rescues the ΔX phenotype—as a case of bypass suppression. They correctly rule out A (Tet promoter artifact) and B (synthetic lethality) based on the nature of the rescue. The core logic hinges on epistasis: if Y were upstream of X, overexpressing Y could not restore function because X is deleted and essential for downstream signaling. However, overexpressing Y rescues the ΔX phenotype only if Y is downstream of X, allowing excess Y to compensate for reduced activation due to X deletion. This aligns with standard genetic epistasis principles. Both consultants arrive at C (X operates upstream of Y) through consistent, logically sound reasoning grounded in first principles. Their agreement is justified, and their reasoning is self-consistent and free of leaps.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 854
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1154
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 303,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": false,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the exact time-dependent probability for spin-down, P_down(t) = sin²θ · sin²(Ωt/2), with Ω ≈ (eB₀/m) − ω cosθ in the adiabatic limit (ω << eB₀/m). This leads to persistent oscillations in the spin-down probability at frequency (eB₀/m) − ω cosθ, which matches option B. Consultant 1 correctly identifies that position A fails generically (only valid at θ=90°), and position C is invalid because adiabaticity conserves eigenstate overlap, not z-basis population — initial state is not aligned with the rotating field. Consultant 2 reinforces this with consistent notation and clear derivation, noting that neither A nor C holds universally. The reasoning is self-consistent, grounded in first principles (rotating frame transformation, exact solution of time-dependent Schrödinger equation), and all intermediate steps align with final conclusion. Agreement status is 'agree', and the shared answer B is logically sound.",
+      "action_1": "Stubbornness",
+      "action_2": "Overthinking",
+      "exit_mode": "AT",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1386
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1116
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 314,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants present logically coherent, self-consistent reasoning grounded in first principles. They agree on the reaction sequence and the necessity of acid-catalyzed rearrangement due to cyclobutane strain relief via Wagner-Meerwein shift. Consultant 1 correctly identifies the ring expansion from cyclobutane to cyclopentane, leading to a tricyclic system with three fused five-membered rings. Consultant 2 reinforces this with precise carbon and methyl group bookkeeping, eliminating options B and C based on molecular formula and structural plausibility. Option A is ruled out due to its strained gem-dimethyl configuration and failure to account for the new methyl from Wittig. Option D matches all criteria: correct carbon count (14), retention of original methyls (3a,4a → 3a,4), incorporation of Wittig-derived methyl at 5a, and the octahydro designation consistent with one remaining double bond. The nomenclature 'cyclopenta[c]pentalene' correctly describes the resulting bicyclo[3.3.0]pentalene framework. Both lines of reasoning converge on D through complementary validation: mechanistic insight and atomic accounting.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": false,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1369
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1693
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "medium"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 317,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently derive the same correct result using consistent first principles: uniform spatial density, shell volume scaling as d²dd, parallax d = 1/plx, and proper application of the Jacobian |dd/d(plx)| = 1/plx². The full transformation gives dN/d(plx) ∝ d² × |dd/d(plx)| ∝ (1/plx²) × (1/plx²) = 1/plx⁴. Both traces recognize the necessity of the Jacobian and correctly combine it with the geometric shell factor. Their reasoning is logically coherent, self-consistent, and aligns in definitions, units, and algebraic steps. The agreement is justified and sound.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 917
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 997
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 323,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "B",
+      "c1_answer": "B",
+      "c2_answer": "B",
+      "consensus": true,
+      "judge_answer": "B",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently conclude that the amine is more nucleophilic than the phenol toward propionic anhydride, leading to N-acylation as the major pathway under kinetic control with 1 equivalent of anhydride. This results in A = N-(4-hydroxyphenyl)propionamide. Subsequent saponification with NaOH/H2O selectively hydrolyzes the ester (aryl propionate) while leaving the amide intact, yielding B = N-(4-hydroxyphenyl)propionamide. The reasoning is logically coherent, grounded in nucleophilicity trends and established precedent (e.g., paracetamol synthesis), and both consultants converge on the same final answer with no substantive contradictions. The agreement status is 'agree', and the shared conclusion is chemically sound.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1310
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1596
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 324,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently derive that the state psi is an eigenstate of H with energy +3/4·A·ħ², using complementary but convergent methods: Consultant 1 via symmetry and eigenvalue structure of total spin S², Consultant 2 via direct operator action and total-spin decomposition. Both correctly identify psi as |S=3/2, M=1/2⟩, rejecting the erroneous S=1/2 labeling. The calculation of Hψ yields a uniform coefficient of 3/4·A·ħ², confirming it is an eigenstate. Option C matches this result exactly. The consultant's claimed answer A (2/3·A·ħ²) is invalidated by both derivations, as 2/3 does not correspond to any valid eigenvalue in the S=3/2 or S=1/2 sectors. The reasoning is logically sound, self-consistent, and grounded in first principles (symmetry, operator algebra, direct computation). Agreement status is 'agree', and the shared conclusion is robust.",
+      "action_1": "Recovery",
+      "action_2": "Persistence",
+      "exit_mode": "TC",
+      "turns": 1,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1392
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1344
+        }
+      ],
+      "conf_1": [
+        "high"
+      ],
+      "conf_2": [
+        "high"
+      ],
+      "c1_correct": true,
+      "c2_correct": false
+    },
+    {
+      "index": 173,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "D",
+      "c1_answer": "D",
+      "c2_answer": "D",
+      "consensus": true,
+      "judge_answer": "D",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants agree on the reaction sequence, stereochemical principles, and the necessity of syn epoxidation across a Z-alkene yielding a cis-disubstituted oxirane with opposite stereodescriptors (2R,3S) or (2S,3R). The dispute centers solely on the facial selectivity of (-)-DET in the Sharpless epoxidation. Consultant 1 incorrectly applies the mnemonic, claiming (-)-DET delivers oxygen from the bottom face, which contradicts standard literature and the established mnemonic (C=C vertical, CH2OH lower right → (-)-DET = top-face delivery). Consultant 2 correctly applies the mnemonic and cites supporting evidence (allyl alcohol + (-)-DET → (R)-glycidol; (E)-2-hexen-1-ol + (+)-DIPT → (2S,3S) epoxide), grounding their reasoning in first principles and consistent with known stereochemical outcomes. The final product D must therefore be (2R,3S)-2-butyl-3-propyloxirane, as confirmed by both the correct application of CIP rules and the unbroken stereochemical fidelity through all steps. The agreement is sound and logically coherent.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 2,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "A",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 680
+        },
+        {
+          "turn": 2,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1289
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "D",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 1439
+        },
+        {
+          "turn": 2,
+          "in_answer": "B",
+          "out_answer": "D",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1764
+        }
+      ],
+      "conf_1": [
+        "high",
+        "high"
+      ],
+      "conf_2": [
+        "medium",
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 234,
+      "protocol": "placebo",
+      "dataset": "GPQA",
+      "pair": "glm46_glm45",
+      "judge": "qwen-flash",
+      "correct": "C",
+      "c1_answer": "C",
+      "c2_answer": "C",
+      "consensus": true,
+      "judge_answer": "C",
+      "judge_correct": true,
+      "judge_winner": "both",
+      "judge_exit": "agree",
+      "judge_reason": "Both consultants independently and consistently arrive at answer C (triplet of triplets) through chemically sound, first-principles reasoning. They correctly identify product 1 as adamantan-2-one (C10H14O, IR 1720 cm⁻¹), rule out the enone alternative based on IR frequency and integration, and correctly trace the reaction sequence: KOH/240°C induces dehydrohalogenation to form a ketone, Al(O-i-Pr)₃ performs MPV reduction to the secondary alcohol (product 2), and O₃/Me₂S reoxidizes it back to adamantan-2-one (product 3). The key NMR analysis centers on the bridgehead proton alpha to the carbonyl (H1/H3), which is vicinal to four protons on two CH₂ groups (C8 and C9). Due to the rigid adamantane cage, exo and endo protons are diastereotopic and exhibit different coupling constants (J_exo ~3–4 Hz, J_endo ~8–10 Hz). This results in unequal couplings to two sets of two equivalent protons, producing a triplet × triplet = triplet of triplets. Both consultants correctly reject B (simple triplet) as insufficiently coupled and D (pentet) as requiring accidentally equal J-values. The reasoning is logically coherent, self-consistent, and grounded in stereochemical and spectroscopic principles. Agreement status is 'agree', and the shared conclusion is sound.",
+      "action_1": "Persistence",
+      "action_2": "Recovery",
+      "exit_mode": "TC",
+      "turns": 2,
+      "swap": true,
+      "stop_reason": "consensus_reached",
+      "n_conflicts_1": 0,
+      "n_conflicts_2": 0,
+      "n_crux_1": 0,
+      "n_crux_2": 0,
+      "crux_1": [],
+      "crux_2": [],
+      "n_ans_changes_1": 0,
+      "n_ans_changes_2": 0,
+      "trace_1": [
+        {
+          "turn": 1,
+          "in_answer": "B",
+          "out_answer": "B",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "medium",
+          "raw_len": 898
+        },
+        {
+          "turn": 2,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1246
+        }
+      ],
+      "trace_2": [
+        {
+          "turn": 1,
+          "in_answer": "C",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1453
+        },
+        {
+          "turn": 2,
+          "in_answer": "B",
+          "out_answer": "C",
+          "changed": false,
+          "n_conflicts": 0,
+          "conflicts": [],
+          "confidence": "high",
+          "raw_len": 1608
+        }
+      ],
+      "conf_1": [
+        "medium",
+        "high"
+      ],
+      "conf_2": [
+        "high",
+        "high"
+      ],
+      "c1_correct": false,
+      "c2_correct": true
+    },
+    {
+      "index": 211,
+      "protocol": "placebo",
+      "status": "error",
+      "error": "chat failed after all attempts: 余额不足或无可用资源包,请充值。"
+    }
+  ]
+}
