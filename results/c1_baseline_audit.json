@@ -1,0 +1,218 @@
+{
+  "consultant_accuracy_verified": true,
+  "structure": {
+    "total": 620,
+    "agree": 0,
+    "both_right": 0,
+    "both_wrong": 0
+  },
+  "coin_flip": [
+    {
+      "ds": "GPQA",
+      "pair": "gpt4o_claude",
+      "judge": "gpt-4o-mini",
+      "n": 126,
+      "debate": 63.9,
+      "dr": 67.5,
+      "coin_mean": 49.97436507936508,
+      "coin_lo": 41.269841269841265,
+      "coin_hi": 58.730158730158735,
+      "beats": false
+    },
+    {
+      "ds": "GPQA",
+      "pair": "gpt4o_claude",
+      "judge": "gemma-3-4b",
+      "n": 126,
+      "debate": 50.0,
+      "dr": 65.9,
+      "coin_mean": 50.0231746031746,
+      "coin_lo": 41.269841269841265,
+      "coin_hi": 58.730158730158735,
+      "beats": false
+    },
+    {
+      "ds": "GPQA",
+      "pair": "glm_kimi",
+      "judge": "gpt-4o-mini",
+      "n": 101,
+      "debate": 69.2,
+      "dr": 77.2,
+      "coin_mean": 49.99475247524752,
+      "coin_lo": 40.5940594059406,
+      "coin_hi": 59.4059405940594,
+      "beats": false
+    },
+    {
+      "ds": "GPQA",
+      "pair": "glm_kimi",
+      "judge": "gemma-3-4b",
+      "n": 101,
+      "debate": 46.8,
+      "dr": 74.3,
+      "coin_mean": 50.02524752475247,
+      "coin_lo": 40.5940594059406,
+      "coin_hi": 59.4059405940594,
+      "beats": false
+    },
+    {
+      "ds": "SuperGPQA",
+      "pair": "gpt4o_claude",
+      "judge": "gpt-4o-mini",
+      "n": 153,
+      "debate": 68.3,
+      "dr": 64.7,
+      "coin_mean": 49.97967320261438,
+      "coin_lo": 42.48366013071895,
+      "coin_hi": 57.51633986928104,
+      "beats": false
+    },
+    {
+      "ds": "SuperGPQA",
+      "pair": "gpt4o_claude",
+      "judge": "gemma-3-4b",
+      "n": 153,
+      "debate": 52.0,
+      "dr": 64.7,
+      "coin_mean": 50.04477124183007,
+      "coin_lo": 42.48366013071895,
+      "coin_hi": 58.16993464052288,
+      "beats": false
+    },
+    {
+      "ds": "SuperGPQA",
+      "pair": "glm_kimi",
+      "judge": "gpt-4o-mini",
+      "n": 72,
+      "debate": 41.7,
+      "dr": 66.2,
+      "coin_mean": 50.11375,
+      "coin_lo": 38.88888888888889,
+      "coin_hi": 61.111111111111114,
+      "beats": false
+    },
+    {
+      "ds": "SuperGPQA",
+      "pair": "glm_kimi",
+      "judge": "gemma-3-4b",
+      "n": 72,
+      "debate": 46.2,
+      "dr": 66.7,
+      "coin_mean": 50.09222222222222,
+      "coin_lo": 38.88888888888889,
+      "coin_hi": 61.111111111111114,
+      "beats": false
+    },
+    {
+      "ds": "HLE",
+      "pair": "gpt4o_claude",
+      "judge": "gpt-4o-mini",
+      "n": 88,
+      "debate": 34.7,
+      "dr": 38.6,
+      "coin_mean": 50.00522727272727,
+      "coin_lo": 39.77272727272727,
+      "coin_hi": 60.22727272727273,
+      "beats": true
+    },
+    {
+      "ds": "HLE",
+      "pair": "gpt4o_claude",
+      "judge": "gemma-3-4b",
+      "n": 88,
+      "debate": 44.3,
+      "dr": 37.5,
+      "coin_mean": 50.02227272727273,
+      "coin_lo": 39.77272727272727,
+      "coin_hi": 60.22727272727273,
+      "beats": false
+    },
+    {
+      "ds": "HLE",
+      "pair": "glm_kimi",
+      "judge": "gpt-4o-mini",
+      "n": 80,
+      "debate": 32.6,
+      "dr": 58.8,
+      "coin_mean": 49.9795,
+      "coin_lo": 38.75,
+      "coin_hi": 61.25000000000001,
+      "beats": true
+    },
+    {
+      "ds": "HLE",
+      "pair": "glm_kimi",
+      "judge": "gemma-3-4b",
+      "n": 80,
+      "debate": 41.3,
+      "dr": 62.5,
+      "coin_mean": 49.97425,
+      "coin_lo": 38.75,
+      "coin_hi": 61.25000000000001,
+      "beats": false
+    }
+  ],
+  "normalized": [
+    {
+      "ds": "GPQA",
+      "pair": "gpt4o_claude",
+      "nch": 4,
+      "rnd": 25.0,
+      "debate": 63.9,
+      "dr": 67.5,
+      "debate_norm": 51.86666666666666,
+      "dr_norm": 56.666666666666664
+    },
+    {
+      "ds": "GPQA",
+      "pair": "glm_kimi",
+      "nch": 4,
+      "rnd": 25.0,
+      "debate": 69.2,
+      "dr": 77.2,
+      "debate_norm": 58.93333333333334,
+      "dr_norm": 69.60000000000001
+    },
+    {
+      "ds": "SuperGPQA",
+      "pair": "gpt4o_claude",
+      "nch": 5,
+      "rnd": 20.0,
+      "debate": 68.3,
+      "dr": 64.7,
+      "debate_norm": 60.375,
+      "dr_norm": 55.87500000000001
+    },
+    {
+      "ds": "SuperGPQA",
+      "pair": "glm_kimi",
+      "nch": 5,
+      "rnd": 20.0,
+      "debate": 41.7,
+      "dr": 66.2,
+      "debate_norm": 27.125000000000004,
+      "dr_norm": 57.75
+    },
+    {
+      "ds": "HLE",
+      "pair": "gpt4o_claude",
+      "nch": 5,
+      "rnd": 20.0,
+      "debate": 34.7,
+      "dr": 38.6,
+      "debate_norm": 18.375000000000004,
+      "dr_norm": 23.25
+    },
+    {
+      "ds": "HLE",
+      "pair": "glm_kimi",
+      "nch": 5,
+      "rnd": 20.0,
+      "debate": 32.6,
+      "dr": 58.8,
+      "debate_norm": 15.750000000000004,
+      "dr_norm": 48.5
+    }
+  ],
+  "n_conditions_debate_below_coin": 2
+}

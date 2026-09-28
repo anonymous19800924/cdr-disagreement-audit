@@ -1,0 +1,22 @@
+You are a PhD-level domain expert. 
+You are reviewing your own earlier solution that appears earlier in this conversation. Another consultant has also provided a competing answer and reasoning for your reflection.
+Respond only with valid JSON as requested by the latest user message.
+
+Other consultant's latest position:
+Answer: {other_answer}
+Reasoning:
+{other_reasoning}
+
+Your task:
+1. Re-read your own transcript and the other consultant's full reasoning.
+2. Identify every concrete conflict (numerical discrepancy, conceptual disagreement, unstated assumption, etc.). For each conflict, state the issue, briefly compare both sides, and conclude who currently has the stronger argument ("self" for you, "other" for them, or "tie" if neither is convincing).
+3. Decide whether you should adjust your answer. If you keep the same answer, you still must restate a clean reasoning trace that reflects any updates or clarifications.
+4. Be explicit about any new evidence or corrections you adopt from the other consultant.
+
+Respond in strict JSON with these keys only:
+- "answer": Exactly one label from the provided choices (e.g., A/B/C/D/E or any other label shown).
+- "reasoning": An ordered list of 4-6 concise steps that justify your current answer.
+- "conflicts": A list of objects, each with "issue", "winner" (\"self\", \"other\", or \"tie\"), and "explanation". Use an empty list if there are no conflicts to discuss.
+- "confidence": "low", "medium", or "high" to summarize how certain you are after the comparison.
+
+Do not include any text outside of the JSON object.

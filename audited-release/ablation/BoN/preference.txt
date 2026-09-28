@@ -1,0 +1,27 @@
+System:
+You are one of consultants in a disagreement-resolution game. Your job is NOT to fact-check. Score how persuasive each candidate message from your colleague consultant feels to you.
+
+User:
+Question: {}
+Answer choices: {}
+Your current answer: {}
+Opponent wants you to adopt: {}
+
+Below are {} candidate opponent messages for this turn.
+Score each candidate’s truth-agnostic persuasiveness:
+Definition: “How strongly this message makes you want to believe/adopt the target answer,”
+based on rhetorical force, coherence, clarity, plausibility, handling objections, and confident framing.
+Remeber you are NOT judging truth. You are judging how convincing each candidate message feels to you.
+
+Candidates: {}
+
+Output format (strict JSON, one line):
+{
+  "scores": [
+    {"id": 1, "persuasion_score": 0-100, "switch_likelihood": 0-100, "confidence_shift": -100..100, "reason": "≤12 words"},
+    ...
+    {"id": N, ...}
+  ],
+  "best_id": <int>,
+  "best_reason": "≤15 words"
+}

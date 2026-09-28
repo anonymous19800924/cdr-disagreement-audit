@@ -1,0 +1,1 @@
+Initialized empty Git repository in D:/cdr_research/arr_workspace/anon_repo_pkg/.git/
