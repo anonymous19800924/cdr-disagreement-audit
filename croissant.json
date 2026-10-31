@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "data": "cr:data",
+    "dataType": "cr:dataType",
+    "dct": "http://purl.org/dc/terms/",
+    "field": "cr:field",
+    "fileObject": "cr:fileObject",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "jsonPath": "cr:jsonPath",
+    "name": "cr:name",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "type": "cr:type",
+    "value": "cr:value"
+  },
+  "@type": "sc:Dataset",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "calibrated-peer-review-reference-labels",
+  "description": "Per-opinion adjudication records, calibrated posteriors, arbitration votes, and human annotations for 10,762 disputed review opinions, with audit artifacts that regenerate every statistic in the accompanying paper.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://anonymous.4open.science/r/anonymous19800924",
+  "version": "1.0.0",
+  "citeAs": "Calibrated Reference Labels for AI-Reviewer Benchmarks: 10,762 Audited Opinions and an Identifiability Result (2026).",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "surface-items",
+      "name": "surface_items.csv",
+      "contentUrl": "data/surface_items.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "anchor-votes",
+      "name": "anchor_votes.jsonl",
+      "contentUrl": "data/anchor_votes.jsonl",
+      "encodingFormat": "application/jsonl"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "anchor-consensus",
+      "name": "anchor_consensus.jsonl",
+      "contentUrl": "data/anchor_consensus.jsonl",
+      "encodingFormat": "application/jsonl"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "heldout-items",
+      "name": "heldout_items.csv",
+      "contentUrl": "data/heldout_items.csv",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "surface-opinions",
+      "name": "surface_opinions",
+      "description": "One row per disputed opinion.",
+      "field": [
+        {"@type": "cr:Field", "name": "key", "dataType": "sc:Text",
+         "source": {"fileObject": {"@id": "surface-items"}, "extract": {"column": "key"}}},
+        {"@type": "cr:Field", "name": "paper_id", "dataType": "sc:Text",
+         "source": {"fileObject": {"@id": "surface-items"}, "extract": {"column": "paper_id"}}},
+        {"@type": "cr:Field", "name": "verdict_conflict", "dataType": "sc:Text",
+         "source": {"fileObject": {"@id": "surface-items"}, "extract": {"column": "verdict_conflict"}}},
+        {"@type": "cr:Field", "name": "verdict_rebuttal", "dataType": "sc:Text",
+         "source": {"fileObject": {"@id": "surface-items"}, "extract": {"column": "verdict_rebuttal"}}},
+        {"@type": "cr:Field", "name": "posterior_incorrect", "dataType": "sc:Float",
+         "source": {"fileObject": {"@id": "surface-items"}, "extract": {"column": "posterior_incorrect"}}},
+        {"@type": "cr:Field", "name": "calibrated_label", "dataType": "sc:Integer",
+         "source": {"fileObject": {"@id": "surface-items"}, "extract": {"column": "calibrated_label"}}}
+      ]
+    }
+  ]
+}

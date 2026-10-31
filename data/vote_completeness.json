@@ -1,0 +1,33 @@
+{
+ "rows": 320,
+ "items": 80,
+ "families": [
+  "DS-PRO",
+  "GLM",
+  "KIMI",
+  "QWEN"
+ ],
+ "votes_per_family_distribution": {
+  "KIMI": {
+   "3": 80
+  },
+  "QWEN": {
+   "3": 72,
+   "2": 7,
+   "1": 1
+  },
+  "DS-PRO": {
+   "3": 73,
+   "2": 5,
+   "1": 2
+  },
+  "GLM": {
+   "3": 59,
+   "0": 10,
+   "2": 5,
+   "1": 6
+  }
+ },
+ "items_with_full_4x3": 50,
+ "items_total": 80
+}

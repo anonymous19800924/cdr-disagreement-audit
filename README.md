@@ -1,55 +1,50 @@
-# Discriminability of LLM-Judge Adoption in Disagreement Resolution — Anonymous Artifact
+# Artifact — Calibrated Peer-Review Reference Labels
 
-Artifact release accompanying the ARR 2026-10 submission (double-blind review).
+Self-contained package for the paper *Calibrated Reference Labels for AI-Reviewer Benchmarks* (NeurIPS D&B submission, anonymized).
 
-## What this repository contains
+**Repository:** https://anonymous.4open.science/r/anonymous19800924
 
-This release contains everything needed to verify the paper's quantitative claims:
+**Maintenance:** see `MAINTENANCE.md`; release history in `CHANGELOG.md`. The package is versioned; run `python run_all.py` (or `make repro`) before every push.
 
-1. **The harness** (`audited-release/`) — protocol code for the disagreement-resolution
-   interaction (consultant rounds, judge verdicts), prompts, and baseline protocols
-   (naive judge, double consultancy), plus the three ablations (no-crux, no-conflict, placebo).
-2. **Per-episode result logs** (`results/`) — every episode with consultant actions,
-   consensus state, and judge verdict, exactly as used in the paper's tables.
-3. **Analysis scripts** (`scripts/`) — statistics, discriminability estimation,
-   figures, and the U6 construction census.
-4. **Question data** (`audited-release/data/`) — per-model answer files for GPQA, HLE, SuperGPQA.
+## Contents
 
-## Key quantities to verify
-
-| Claim | Where |
+| Path | Content |
 |---|---|
-| Main arms: Δ_disc = +0.000 across DR / no-crux / no-conflict | `results/dr_*.json`, `results/drnocrux_*.json`, `results/drnoconf_*.json` |
-| Placebo arm: Δ_disc = +0.111 | `results/placebo_GPQA_glm46_glm45_judge_glm45air.json` |
-| U1 implanted-consensus: judge-only, Δ = +0.512 (glm-4.5-air) / −0.013 (glm-4-flash) | `results/u1_implanted.json(.jsonl)` |
-| W-5 cross-family rejudge: qwen-flash Δ = +0.000 on DR arm, +0.325 on implanted arm | `results/u1_implanted_w5_qwenflash.json(.jsonl)`, `results/dr_*` |
-| W-5 four-arm rejudge by qwen-flash: Δ = −0.014 / −0.014 / −0.028 / −0.014 (DR / no-crux / no-conflict / placebo) | `results/dr_GPQA_glm46_glm45_qwen-flash.json`, `results/drnocrux_GPQA_glm46_glm45_qwen-flash.json`, `results/drnoconf_GPQA_glm46_glm45_qwen-flash.json`, `results/placebo_GPQA_glm46_glm45_qwen-flash.json` |
-| W-2 same-model consultant pilot: glm-4.6×glm-4.6, 10/10 correct consensuses on 10 matched episodes (main arm: 8/10) | `results/dr_GPQA_glm46_homo_glm-4.5-air.json` |
-| U6 construction census: 620/620 forced one-right-one-wrong | `scripts/u6_census.py` + result logs |
+| `data/surface_items.csv` | 10,762 disputed opinions: key, paper id, venue-year, decision, channel verdicts, taxonomy category, calibrated posterior, calibrated label, calibration-set flag, epistemic type. |
+| `data/anchor_votes.jsonl` | 320 item–family vote records (up to 3 votes each) for the 80 anchor items. |
+| `data/anchor_consensus.jsonl` | 80-item five-vote consensus. |
+| `data/anchor_key.jsonl` | item_id ↔ key mapping, channel verdicts, subgroup, epistemic type, golden majority. |
+| `data/anchor_annotator1.csv`, `anchor_annotator2.csv` | Two blind human annotation sheets (anonymized). |
+| `data/anchor_agreement.json` | Human agreement statistics. |
+| `data/heldout_items.csv` | 80 held-out items with channel verdicts and subgroup; the 73 with full four-family votes are the evaluation set. |
+| `data/cross_family_heldout.jsonl`, `answer_key_heldout.jsonl` | Held-out arbitration votes and keys. |
+| `data/heldout_report.json` | Held-out per-cell accuracy, McNemar statistics, bootstrap CI, and the sensitivity curve (matches Table 2 and the sensitivity numbers). |
+| `data/calibration_set.tsv`, `calibration_votes.jsonl` | 280 calibration items (retained from 300 voted items with a confident majority) and the 300×3 vote records. |
+| `data/dual_scores.jsonl`, `dual_decisions.json`, `ai_opinions.jsonl` | Downstream dual-reference scoring log, 30-paper decisions, 745-opinion generation manifest. |
+| `data/stance_results.jsonl`, `stance_ac_localized.jsonl` | Meta-review and area-chair stance signals (raw JSONL). |
+| `data/corpus_counts.json`, `signal_coverage.json`, `vision_report.json`, `vote_completeness.json`, `cal_report.json` | Audit statistics behind the paper. |
+| `scripts/verify_consensus.py` | Regenerates the channel-reliability audit (Sec. 6.1). |
+| `scripts/verify_agreement_v2.py` | Regenerates the human-verification statistics (Sec. 6.2). |
+| `scripts/sensitivity.py` | Regenerates the held-out table and noise-sensitivity curve (Secs. 6.3–6.4). |
+| `scripts/verify_theory.py`, `scripts/verify_symmetry.py` | Symbolic/Monte-Carlo theory checks (Sec. 4). |
+| `croissant.json` | Croissant metadata for the core tables. |
+| `DATASHEET.md`, `LICENSE-CODE`, `LICENSE-DATA` | Documentation and licensing. |
 
-## Reproduction
+## Reproduce
 
-```bash
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -e .                                     # see pyproject.toml
-cp env.example .env                                  # fill in your own API keys
-python audited-release/run.py --help                 # protocol runner
-python scripts/analyze.py --help                     # statistics over result logs
-python scripts/u1_stats.py results/u1_implanted.jsonl
-python scripts/u6_census.py --help
+```
+python scripts/verify_consensus.py          # 73.8% / 26.2% / 77.5% / robustness
+python scripts/verify_agreement_v2.py --a1 data/anchor_annotator1.csv \
+    --a2 data/anchor_annotator2.csv --key data/anchor_key.jsonl
+python scripts/sensitivity.py               # 71.2 / 68.5 / 31.5 + eps sweep
+python scripts/verify_theory.py             # identities + synthetic EM
+python scripts/verify_symmetry.py           # S,T,U algebra + ranks
 ```
 
-All model calls go through cached endpoints; reruns reuse per-episode artifacts so
-costs are limited to uncached calls.
+Requirements: Python 3.9+, NumPy, SymPy. No network access and no model calls are needed.
 
-## Provenance note
+## Notes
 
-`audited-release/` is the released codebase of the disagreement-resolution protocol
-that this paper audits, included unmodified (see `audited-release/README.upstream.md`)
-so that reviewers can distinguish upstream protocol behaviour from our instrumentation.
-The `results/` directory and `scripts/u1_*`/`u6_*` files are this paper's own artifacts.
-
-## Anonymity
-
-This repository is maintained anonymously for double-blind review. Upon acceptance,
-the de-anonymized release will supersede it.
+- The corpus itself is not redistributed; `surface_items.csv` contains only derived metadata and public opinion identifiers.
+- `heldout_report.json` matches the paper's Tables 2–3 exactly. The legacy file `sensitivity_n4.json` (older 110-item evaluation set) is **not** part of this package.
+- A public repository URL will replace this package location at camera-ready; the Croissant file will point to the hosted copy.

@@ -1,0 +1,840 @@
+{"item_id": "H002", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H001", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H004", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H003", "family": "KIMI", "majority": "CORRECT", "votes": ["INCORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H004", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H005", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H001", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H003", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H005", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H002", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H004", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H003", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H001", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H007", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H006", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H008", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H006", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H006", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H002", "family": "GLM", "majority": null, "votes": ["INCORRECT"]}
+{"item_id": "H007", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H009", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H007", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H008", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H008", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H009", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H005", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H009", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H011", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H011", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H010", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H007", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H010", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H009", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H001", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H008", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H011", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H011", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H012", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H012", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H002", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H010", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H013", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H013", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H012", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H015", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H014", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H014", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H015", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H013", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H016", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H015", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H013", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H016", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H016", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H017", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H003", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H014", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H017", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H017", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H006", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H018", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H018", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H020", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H018", "family": "KIMI", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H019", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H019", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H010", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H015", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H020", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H017", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H020", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H020", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H022", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H021", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H019", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H021", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H022", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H022", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H024", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H023", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H022", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H023", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H018", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H023", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H024", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H024", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H016", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H025", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H026", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H005", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H025", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H025", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H021", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H026", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H026", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H027", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H027", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H027", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H029", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H028", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H028", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H028", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H029", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H029", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H029", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H030", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H030", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H025", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H031", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H031", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H030", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H032", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H032", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H004", "family": "QWEN", "majority": null, "votes": ["INCORRECT", "CORRECT"]}
+{"item_id": "H033", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H033", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H019", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H033", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H026", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H034", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H034", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H035", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H035", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H035", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H034", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H036", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H036", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H033", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H037", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H037", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H034", "family": "KIMI", "majority": "CORRECT", "votes": ["INCORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H036", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H032", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H038", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H038", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H036", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H031", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H037", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H037", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H027", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H040", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H028", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H040", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H039", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H039", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H041", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H039", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H040", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H040", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H042", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H024", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H041", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H041", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H041", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H042", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H043", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H042", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H043", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H043", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H042", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H044", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H044", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H044", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H045", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H014", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H045", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H046", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H046", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H047", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H047", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H047", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H023", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H046", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H045", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H048", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H048", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H048", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H035", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H032", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H049", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H049", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H049", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H039", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H050", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H012", "family": "QWEN", "majority": null, "votes": ["INCORRECT"]}
+{"item_id": "H050", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H051", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H051", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H050", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H044", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H052", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H052", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H051", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H052", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H053", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H030", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H053", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H048", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H051", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H053", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H021", "family": "QWEN", "majority": null, "votes": ["INCORRECT"]}
+{"item_id": "H055", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H054", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H054", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H047", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H055", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H055", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H056", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H056", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H057", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H057", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H057", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H038", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H056", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H058", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H055", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H057", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H058", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H058", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H059", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H059", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H031", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H054", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H060", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H060", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H061", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H060", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H060", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H058", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H062", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H061", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H061", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H056", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H063", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H062", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H062", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H063", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H059", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H063", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H063", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H064", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H064", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H065", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H065", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H049", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H065", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H066", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H066", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H066", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H064", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H067", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H067", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H052", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H062", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H067", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H068", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H068", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H068", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H069", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H069", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H050", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H046", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT"]}
+{"item_id": "H070", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H070", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H061", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H067", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H053", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H038", "family": "QWEN", "majority": null, "votes": ["INCORRECT"]}
+{"item_id": "H071", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H071", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H072", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H072", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H045", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H072", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H073", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H073", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H073", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H074", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H074", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H074", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H043", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT"]}
+{"item_id": "H065", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H074", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H075", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H054", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT"]}
+{"item_id": "H070", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H075", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H075", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H076", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H076", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H076", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H075", "family": "QWEN", "majority": "CORRECT", "votes": ["INCORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H068", "family": "QWEN", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H077", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H078", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H077", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H078", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H078", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H079", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H079", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H078", "family": "KIMI", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H076", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H069", "family": "KIMI", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H077", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H080", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H080", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H077", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H064", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H073", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H080", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H079", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H071", "family": "KIMI", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H080", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H066", "family": "QWEN", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H071", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT"]}
+{"item_id": "H059", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H072", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H079", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H070", "family": "QWEN", "majority": null, "votes": ["INCORRECT"]}
+{"item_id": "H069", "family": "QWEN", "majority": null, "votes": []}
+{"item_id": "H006", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H007", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H001", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H009", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H003", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H002", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H008", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H004", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H005", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H002", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H004", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H009", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H005", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H008", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H006", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H007", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H010", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H001", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H003", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H010", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H012", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H013", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H015", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H011", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H011", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H017", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H016", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H014", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H018", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H012", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H013", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H017", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H014", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H015", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H016", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H018", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H019", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H019", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H022", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H020", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H023", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H024", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H025", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H026", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H021", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H020", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H022", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H024", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H021", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H023", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H027", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H025", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H027", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H026", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H030", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H031", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H029", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H028", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H028", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H029", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H030", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H031", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H032", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H033", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H032", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H033", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H034", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H034", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H035", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H035", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H036", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H037", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H036", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H038", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H039", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H038", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H039", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H040", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H037", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H041", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H040", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H041", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H042", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H042", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H043", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H043", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H044", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H044", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H045", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H045", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H046", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H047", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H046", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H048", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H047", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H049", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H048", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H049", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H050", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H050", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H051", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H051", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H052", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H052", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H053", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H055", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H053", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H054", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H056", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H054", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H057", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H058", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H057", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H055", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H056", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H059", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H058", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H059", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H060", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H060", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H004", "family": "QWEN", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H061", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H062", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H062", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H061", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H063", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H063", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H064", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H064", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H066", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H065", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H067", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H065", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H066", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H067", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H068", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H068", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H069", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H070", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H069", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H070", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H071", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H071", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H072", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H072", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H073", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H073", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H074", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H074", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H075", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H075", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H076", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H076", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H077", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H077", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H078", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H078", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H079", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H079", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H080", "family": "DS-PRO", "majority": null, "votes": []}
+{"item_id": "H080", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H021", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H002", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H001", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H038", "family": "QWEN", "majority": null, "votes": ["INCORRECT"]}
+{"item_id": "H008", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H012", "family": "QWEN", "majority": null, "votes": ["INCORRECT"]}
+{"item_id": "H007", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H005", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H006", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H008", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H009", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H003", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H004", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H002", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H010", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H007", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H001", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H005", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H004", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H001", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H017", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H011", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H002", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H003", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H012", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H013", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H015", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H014", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H016", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H009", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H011", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H017", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H015", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H010", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H020", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H006", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H018", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H019", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H012", "family": "DS-PRO", "majority": null, "votes": ["CORRECT", "INCORRECT"]}
+{"item_id": "H019", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H020", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H021", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H016", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H022", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H022", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H023", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H024", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H004", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H003", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H014", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT"]}
+{"item_id": "H025", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H029", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H026", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H027", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H028", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H018", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H029", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H021", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H025", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H030", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H023", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H031", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H033", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H032", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H026", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H028", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H033", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H034", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H024", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H035", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H036", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H037", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H040", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H041", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H035", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H013", "family": "DS-PRO", "majority": null, "votes": ["CORRECT"]}
+{"item_id": "H038", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H037", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H039", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H034", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H040", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H030", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H036", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H041", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H042", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H042", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H043", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H044", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H047", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H039", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H048", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H045", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H045", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H031", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT"]}
+{"item_id": "H046", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H047", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H048", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H049", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H027", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H050", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H032", "family": "DS-PRO", "majority": null, "votes": ["INCORRECT"]}
+{"item_id": "H046", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H051", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H052", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H051", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H044", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H053", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H052", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H054", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H055", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H056", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H049", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H057", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H057", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H038", "family": "DS-PRO", "majority": null, "votes": ["CORRECT", "INCORRECT"]}
+{"item_id": "H055", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H056", "family": "DS-PRO", "majority": "CORRECT", "votes": ["INCORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H012", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H058", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H060", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H050", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H059", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H043", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H063", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H058", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H053", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H064", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H060", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H067", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H061", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H062", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H006", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H063", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H005", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H064", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H065", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H066", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H067", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H068", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H065", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H068", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H059", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H069", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H070", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H069", "family": "QWEN", "majority": null, "votes": []}
+{"item_id": "H070", "family": "QWEN", "majority": null, "votes": []}
+{"item_id": "H054", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT"]}
+{"item_id": "H071", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H075", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H072", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H061", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H073", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H074", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H078", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H073", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H075", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H076", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H062", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H077", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H066", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H078", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H069", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H079", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H080", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H072", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H071", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT"]}
+{"item_id": "H077", "family": "DS-PRO", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H074", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H070", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H076", "family": "DS-PRO", "majority": "CORRECT", "votes": ["INCORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H080", "family": "DS-PRO", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H079", "family": "DS-PRO", "majority": null, "votes": ["INCORRECT"]}
+{"item_id": "H038", "family": "QWEN", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H007", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H008", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H009", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H010", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H070", "family": "QWEN", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H011", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H012", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H069", "family": "QWEN", "majority": null, "votes": ["CORRECT"]}
+{"item_id": "H013", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H014", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H007", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H001", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H004", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H002", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H005", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H009", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H003", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H008", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H010", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H006", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H015", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H016", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H020", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H014", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H011", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H013", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H018", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H015", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H019", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H012", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H017", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H016", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H024", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H022", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H026", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H025", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H021", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H029", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H023", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H027", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H028", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H030", "family": "GLM-M", "majority": null, "votes": []}
+{"item_id": "H018", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H017", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H019", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H020", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H004", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H002", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H007", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H010", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H008", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H009", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H006", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H001", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H005", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H003", "family": "GLM", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H015", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H016", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H011", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H014", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H020", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H017", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H022", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H025", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H024", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H023", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H027", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H018", "family": "GLM", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H028", "family": "GLM", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H019", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H029", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H026", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H013", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H012", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H031", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H034", "family": "GLM", "majority": "CORRECT", "votes": ["INCORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H021", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H033", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H040", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H037", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H041", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H042", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H032", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H035", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H038", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H030", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H044", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H047", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H036", "family": "GLM", "majority": "CORRECT", "votes": ["INCORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H043", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H049", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H045", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H048", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H055", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H051", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H046", "family": "GLM", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H057", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H052", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H058", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H060", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H053", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H061", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H054", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H065", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H063", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H050", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H059", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H062", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H039", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT"]}
+{"item_id": "H066", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H064", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H067", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H056", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "CORRECT"]}
+{"item_id": "H068", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H074", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H073", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H076", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H072", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H069", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H070", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H075", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H078", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "CORRECT"]}
+{"item_id": "H021", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H022", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H080", "family": "GLM", "majority": "INCORRECT", "votes": ["CORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H079", "family": "GLM", "majority": "INCORRECT", "votes": ["INCORRECT", "INCORRECT", "INCORRECT"]}
+{"item_id": "H077", "family": "GLM", "majority": null, "votes": ["CORRECT", "INCORRECT"]}
+{"item_id": "H071", "family": "GLM", "majority": "CORRECT", "votes": ["CORRECT", "CORRECT", "INCORRECT"]}
+{"item_id": "H023", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H024", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H025", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H026", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H027", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H028", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H029", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H030", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H032", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H031", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H034", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H033", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H035", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H036", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H037", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H038", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H040", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H039", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H041", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H042", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H044", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H043", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H045", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H046", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H048", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H047", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H049", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H050", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H051", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H052", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H053", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H054", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H056", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H055", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H058", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H057", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H059", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H060", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H061", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H062", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H064", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H063", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H065", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H066", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H067", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H068", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H069", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H070", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H071", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H072", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H073", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H074", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H076", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H075", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H078", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H077", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H079", "family": "GLM", "majority": null, "votes": []}
+{"item_id": "H080", "family": "GLM", "majority": null, "votes": []}

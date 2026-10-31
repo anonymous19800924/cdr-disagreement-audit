@@ -1,0 +1,26 @@
+{
+ "papers": 3900,
+ "opinions": 152240,
+ "venue_years": [
+  "ICLR_2017",
+  "ICLR_2018",
+  "ICLR_2019",
+  "ICLR_2020",
+  "ICLR_2021",
+  "ICLR_2022",
+  "ICLR_2023",
+  "ICLR_2024",
+  "ICLR_2025",
+  "NeurIPS_2021",
+  "NeurIPS_2022",
+  "NeurIPS_2023",
+  "NeurIPS_2024"
+ ],
+ "both_correct": 141338,
+ "both_incorrect": 140,
+ "surface_A": 9630,
+ "surface_B": 1132,
+ "surface": 10762,
+ "surface_fraction": 0.07069101418812401,
+ "consistent_fraction": 0.9293089858118759
+}

@@ -1,0 +1,20 @@
+{
+ "vision_papers": 283,
+ "corpus_papers": 3900,
+ "vision_share": 0.07256410256410256,
+ "surface_papers": 3180,
+ "corpus_surface_paper_fraction": 0.8153846153846154,
+ "vision_on_surface": 246,
+ "vision_surface_fraction": 0.8692579505300353,
+ "vision_overrepresentation_ratio": 1.0660710714047603,
+ "surface_posterior_incorrect_all": 0.8581118751161494,
+ "surface_posterior_incorrect_vision": 0.8875140607424072,
+ "surface_opinions_vision": 889,
+ "reviews_scanned": 60,
+ "reviews_with_figure_like_refs": 16,
+ "reviews_with_figure_refs_fraction": 0.26666666666666666,
+ "reviews_citing_numbered_figure_or_table": 15,
+ "opinions_scanned": 745,
+ "opinions_citing_figure_or_table": 21,
+ "opinions_figure_fraction": 0.028187919463087248
+}

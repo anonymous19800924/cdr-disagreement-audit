@@ -1,0 +1,45 @@
+{
+ "papers": 30,
+ "accept": 15,
+ "reject": 15,
+ "rejected_pairs": {
+  "n": 314,
+  "mean_delta": 0.0
+ },
+ "accepted_pairs": {
+  "n": 290,
+  "mean_delta": -0.05517241379310345
+ },
+ "decisions": {
+  "wXBt-7VM2JE": "reject",
+  "BSBZCa6N3E": "reject",
+  "0IywQ8uxJx": "reject",
+  "rGvDRT4Z60": "reject",
+  "oRZN9a53ag": "reject",
+  "Zu3iPlzCe9J": "reject",
+  "Mtlt3RQTXJ": "reject",
+  "IfpNsorodK": "reject",
+  "5Spjp0zDYt": "reject",
+  "9_pgtXEB652": "reject",
+  "4NsYCAxubi": "reject",
+  "b2WpR0Fymj": "reject",
+  "r7mj17BKzw": "reject",
+  "ByQZjx-0-": "reject",
+  "HJGtFoC5Fm": "reject",
+  "kS7ED7eE74": "accept",
+  "RcbphT7qjTq": "accept",
+  "gjBk6IQofa": "accept",
+  "eQ6VjBhevn": "accept",
+  "jN5y-zb5Q7m": "accept",
+  "gpJw8f4tIU": "accept",
+  "X3ydKRcQr6": "accept",
+  "WumysvcMvV6": "accept",
+  "0uRc3CfJIQ": "accept",
+  "tCYjE8Pf2Zg": "accept",
+  "4R7YrAGhnve": "accept",
+  "KTR33hMnMX": "accept",
+  "MV0INFAKGq": "accept",
+  "6SRE9GZ9s6": "accept",
+  "VAC7aB6qSG": "accept"
+ }
+}

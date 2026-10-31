@@ -1,0 +1,7 @@
+{
+ "n_resolved": 71,
+ "human_human_agreement": 0.8875,
+ "human_human_kappa": 0.7735849056603773,
+ "human_machine_agreement": 0.8732394366197183,
+ "human_machine_kappa": 0.7447063523771473
+}

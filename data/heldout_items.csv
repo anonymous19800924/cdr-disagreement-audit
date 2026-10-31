@@ -1,0 +1,81 @@
+item_id,key,subgroup,decision,epistemic_type,verdict_conflict,verdict_rebuttal
+H001,vDp6StrKIq_11,A,Accept (Poster),,correct,incorrect
+H002,Nk1MegaPuG_4,A,Reject,,correct,incorrect
+H003,sGqd1tF8P8_59,A,Accept (Poster),,correct,incorrect
+H004,E6EbeJR20o_34,A,Reject,,correct,incorrect
+H005,rCnZrFikX6_13,A,Accept (poster),,correct,incorrect
+H006,zSUXo1nkqR_13,A,Reject,,correct,incorrect
+H007,gPtiGRaVcE_67,A,Accept (poster),,correct,incorrect
+H008,wi8wMFuO0H_13,A,Reject,,correct,incorrect
+H009,9-8YT5G36g-_18,A,Accept,,correct,incorrect
+H010,SkzK4iC5Ym_21,A,Reject,,correct,incorrect
+H011,HWNl9PAYIP_2,B,Accept (poster),,incorrect,correct
+H012,dVq2StlcnY_17,B,Reject,,incorrect,correct
+H013,kS7ED7eE74_50,B,Accept (poster),,incorrect,correct
+H014,ZAx5DxAucB_19,B,Reject,,incorrect,correct
+H015,Eb74zfBkWa_41,B,Accept (poster),,incorrect,correct
+H016,fCQe7ei2f5_57,B,Reject,,incorrect,correct
+H017,IzlRh5qwmG_28,B,Accept (poster),,incorrect,correct
+H018,8S6ZeKB8tu_39,B,Reject,,incorrect,correct
+H019,6qdUJblMHqy_5,B,Accept,,incorrect,correct
+H020,BkA7gfZAb_14,B,Invite to Workshop Track,,incorrect,correct
+H021,TGmwp9jJXl_32,A,Accept (poster),,correct,incorrect
+H022,KgGhxmQFFy_34,A,Reject,,correct,incorrect
+H023,3Fc9gnR0fa_24,A,Accept (poster),,correct,incorrect
+H024,4Hf5pbk74h_7,A,Reject,,correct,incorrect
+H025,Mhb5fpA1T0_29,A,Accept (spotlight),,correct,incorrect
+H026,8oNzf7u5lT_33,A,Reject,,correct,incorrect
+H027,xqc8yyhScL_45,A,Accept (poster),,correct,incorrect
+H028,ARJG1kr8A7_31,A,Reject,,correct,incorrect
+H029,wzJcEb5Mm4_44,A,Accept,,correct,incorrect
+H030,rylZKTNYPr_3,A,Reject,,correct,incorrect
+H031,yGs9vTRjaE_9,B,Accept (poster),,incorrect,correct
+H032,TI7Vy90B9j_1,B,Reject,,incorrect,correct
+H033,eR7PrfJe9o_22,B,Accept (poster),,incorrect,correct
+H034,r7OB810eaP_3,B,Reject,,incorrect,correct
+H035,tmX1AUmkl6_5,B,Accept (poster),,incorrect,correct
+H036,Z7OWaSze0V_17,B,Reject,,incorrect,correct
+H037,3kitbpEZZO_53,B,Accept (poster),,incorrect,correct
+H038,Cj3B4SoWuT_0,B,Reject,,incorrect,correct
+H039,ui4xChWcA4R_1,B,Accept (Poster),,incorrect,correct
+H040,6-lLt2zxbZR_47,B,Reject,,incorrect,correct
+H041,QEHrmQPBdd_36,A,Accept (Oral),,correct,incorrect
+H042,bAdSmSR10C_23,A,Reject,,correct,incorrect
+H043,TQlpqmCeMe_23,A,Accept (spotlight),,correct,incorrect
+H044,JVtwC9RzlI_38,A,Reject,,correct,incorrect
+H045,vI1WqFn15v_44,A,Accept (poster),,correct,incorrect
+H046,b5CEjE4zyL_8,A,Reject,,correct,incorrect
+H047,Sf9goJtTCE_14,A,Accept (oral),,correct,incorrect
+H048,oAmHzy8btj_42,A,Reject,,correct,incorrect
+H049,Hyl_vjC5KQ_25,A,Accept (Poster),,correct,incorrect
+H050,HyxBpoR5tm_19,A,Reject,,correct,incorrect
+H051,7Ttk3RzDeu_1,B,Accept (oral),,incorrect,correct
+H052,An87ZnPbkT_12,B,Reject,,incorrect,correct
+H053,XrK4JK2jBr_54,B,Accept (poster),,incorrect,correct
+H054,NZC5QgbTSq_4,B,Reject,,incorrect,correct
+H055,jZYf1GxH1V_1,B,Accept (poster),,incorrect,correct
+H056,F5dhGCdyYh_16,B,Accept (spotlight),,incorrect,correct
+H057,8zJevzvk64_24,B,Reject,,incorrect,correct
+H058,M8OGl34Pmg_14,B,Accept (Spotlight),,incorrect,correct
+H059,nKZvpGRdJlG_17,B,Reject,,incorrect,correct
+H060,e0SQ6wsHjv_26,A,Accept (poster),,correct,incorrect
+H061,oKglS1cFdb_18,A,Reject,,correct,incorrect
+H062,hLoanbRrjM_21,A,Accept (poster),,correct,incorrect
+H063,vFqVifIr6E_4,A,Reject,,correct,incorrect
+H064,RPChapuXlC_59,A,Accept (poster),,correct,incorrect
+H065,tcFcKyJgRM_2,A,Reject,,correct,incorrect
+H066,lHZm9vNm5H_11,A,Accept (spotlight),,correct,incorrect
+H067,ARJG1kr8A7_24,A,Reject,,correct,incorrect
+H068,GwXrGy_vc8m_43,A,Accept,,correct,incorrect
+H069,lgYzzQ0fX5D_39,A,Reject,,correct,incorrect
+H070,kN7GTUss0l_16,B,Accept (poster),,incorrect,correct
+H071,rwmWd2rjP1_15,B,Reject,,incorrect,correct
+H072,hQfcrTBHeD_36,B,Accept (poster),,incorrect,correct
+H073,8oNzf7u5lT_3,B,Reject,,incorrect,correct
+H074,dOAkHmsjRX_29,B,Accept (Spotlight),,incorrect,correct
+H075,qe49ybvvPs_14,B,Accept (poster),,incorrect,correct
+H076,hkgULK8u4d_12,B,Reject,,incorrect,correct
+H077,CPdc77SQfQ5_32,B,Accept: notable-top-5%,,incorrect,correct
+H078,UHPva3PuKLN_42,B,Reject,,incorrect,correct
+H079,PQt6Vg2X5u_56,A,Accept (spotlight),,correct,incorrect
+H080,LvuSFvGShf_17,A,Reject,,correct,incorrect
