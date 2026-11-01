@@ -1,10 +1,10 @@
 PY ?= python
-.PHONY: all repro check consensus agreement sensitivity theory symmetry
+.PHONY: all repro check consensus agreement sensitivity theory symmetry analysis
 
 all: repro check
 
-repro: consensus agreement sensitivity theory symmetry
-	@echo "Reproduction complete: audit, human agreement, held-out/sensitivity, theory, symmetry."
+repro: consensus agreement sensitivity theory symmetry analysis
+	@echo "Reproduction complete: audit, human agreement, held-out/sensitivity, theory, symmetry, calibration."
 
 check:
 	$(PY) scripts/check_release.py
@@ -23,3 +23,11 @@ theory:
 
 symmetry:
 	$(PY) scripts/verify_symmetry.py
+
+analysis:
+	$(PY) analysis/cal_metrics.py
+	$(PY) analysis/tau_sweep.py
+	$(PY) analysis/ablation.py
+	$(PY) analysis/consensus_robustness.py
+	$(PY) analysis/human_check.py
+	$(PY) analysis/audit_cis.py

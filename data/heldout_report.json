@@ -1,52 +1,62 @@
 {
- "n": 73,
+ "n_4family": 73,
  "cal_acc": 0.7123287671232876,
  "rb_acc": 0.684931506849315,
- "cf_acc": 0.3150684931506849,
- "consensus_incorrect": 0.6438356164383562,
- "majority_class_acc": 0.6438356164383562,
- "subgroup_A": {
-  "n": 40,
-  "cal": 0.85,
-  "rb": 0.8,
-  "cf": 0.2,
-  "cons_inc": 0.8
- },
- "subgroup_B": {
-  "n": 33,
-  "cal": 0.5454545454545454,
-  "rb": 0.5454545454545454,
-  "cf": 0.45454545454545453,
-  "cons_inc": 0.45454545454545453
- },
- "mcnemar": {
-  "b_cal_right_rb_wrong": 2,
-  "c_cal_wrong_rb_right": 0,
-  "p_exact_two_sided": 0.5,
-  "p_asymptotic_continuity_corrected": 0.4795001221869535
- },
- "bootstrap_ci95_cal_minus_rb": [
-  0.0,
-  0.06849315068493156
- ],
- "bootstrap_reps": 10000,
- "seed": 2026,
- "chi2_subgroup_cal_vs_rb": {
-  "table": [
-   34,
-   6,
-   18,
-   15
-  ],
-  "p": 0.004225586021358166
- },
- "fit_subgroup_counts": {
-  "A": 40,
-  "B": 40
- },
- "eval_subgroup_counts": {
-  "A": 40,
-  "B": 33
- },
- "fit_n": 80
+ "cons_inc": 0.6438356164383562,
+ "sensitivity": [
+  {
+   "eps": 0.0,
+   "acc": 0.7123287671232875,
+   "std": 1.1102230246251565e-16,
+   "n_eval": 73,
+   "n_fit": 80,
+   "n_trials": 20,
+   "rebuttal_baseline": 0.684931506849315
+  },
+  {
+   "eps": 0.1,
+   "acc": 0.6986301369863013,
+   "std": 0.0136986301369863,
+   "n_eval": 73,
+   "n_fit": 80,
+   "n_trials": 20,
+   "rebuttal_baseline": 0.684931506849315
+  },
+  {
+   "eps": 0.2,
+   "acc": 0.6917808219178082,
+   "std": 0.015916369915920887,
+   "n_eval": 73,
+   "n_fit": 80,
+   "n_trials": 20,
+   "rebuttal_baseline": 0.684931506849315
+  },
+  {
+   "eps": 0.3,
+   "acc": 0.671917808219178,
+   "std": 0.09583902732872941,
+   "n_eval": 73,
+   "n_fit": 80,
+   "n_trials": 20,
+   "rebuttal_baseline": 0.684931506849315
+  },
+  {
+   "eps": 0.4,
+   "acc": 0.6102739726027397,
+   "std": 0.12400665543068756,
+   "n_eval": 73,
+   "n_fit": 80,
+   "n_trials": 20,
+   "rebuttal_baseline": 0.684931506849315
+  },
+  {
+   "eps": 0.5,
+   "acc": 0.48082191780821926,
+   "std": 0.15612232069904072,
+   "n_eval": 73,
+   "n_fit": 80,
+   "n_trials": 20,
+   "rebuttal_baseline": 0.684931506849315
+  }
+ ]
 }
