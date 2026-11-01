@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this artifact, please cite the accompanying paper."
-title: "Calibrated Reference Labels for AI-Reviewer Benchmarks"
+title: "Reliability-Weighted Reference Labels for AI-Reviewer Benchmarks: 10,762 Contested Opinions and an Identifiability Result"
 url: "https://anonymous.4open.science/r/anonymous19800924"
 authors:
   - name: "Anonymous Authors"
 year: 2026
-version: "1.0.0"
+version: "1.1.0"
 license: "CC-BY-4.0"
 abstract: >-
-  Per-opinion adjudication records, calibrated posteriors, arbitration votes,
+  Per-opinion adjudication records, reliability-weighted posteriors, arbitration votes,
   and human annotations for 10,762 disputed review opinions, with audit
-  artifacts that regenerate every statistic in the accompanying paper.
+  artifacts that regenerate the reported statistics.

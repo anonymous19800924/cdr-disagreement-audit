@@ -1,4 +1,4 @@
-# Datasheet — Calibrated Peer-Review Reference Labels
+# Datasheet — Reliability-Weighted Peer-Review Reference Labels
 
 Following *Datasheets for Datasets* (Gebru et al.).
 

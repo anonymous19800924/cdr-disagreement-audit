@@ -1,6 +1,6 @@
 # Maintenance Guide
 
-This package is the artifact for the paper *Calibrated Reference Labels for AI-Reviewer Benchmarks*. It is hosted at:
+This package is the artifact for the paper *Reliability-Weighted Reference Labels for AI-Reviewer Benchmarks*. It is hosted at:
 
 **https://anonymous.4open.science/r/anonymous19800924**
 
