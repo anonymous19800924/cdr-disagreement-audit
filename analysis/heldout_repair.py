@@ -55,8 +55,8 @@ ties = []
 for r in held:
     fv = votes.get(r["item_id"], {})
     if all(f in fv for f in fams):
-        c = Counter(fv[f] for f in fams).most_common()
-        if len(c) > 1 and c[0][1] == c[1][1]:
+        cnt = Counter(fv[f] for f in fams).most_common()
+        if len(cnt) > 1 and cnt[0][1] == cnt[1][1]:
             ties.append(r["item_id"])
 print("ties", len(ties), ties)
 # opposite rule: ties -> INCORRECT

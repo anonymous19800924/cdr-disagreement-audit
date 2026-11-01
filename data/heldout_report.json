@@ -67,12 +67,7 @@
  "seed": 2026,
  "mcnemar": {
   "b_cal_right_rb_wrong": 2,
-  "c_cal_wrong_rb_right": [
-   [
-    "INCORRECT",
-    4
-   ]
-  ],
+  "c_cal_wrong_rb_right": 0,
   "p_exact_two_sided": 0.5,
   "p_asymptotic_continuity_corrected": 0.47950012218695337
  },
