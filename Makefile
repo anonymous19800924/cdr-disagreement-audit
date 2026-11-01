@@ -31,3 +31,4 @@ analysis:
 	$(PY) analysis/consensus_robustness.py
 	$(PY) analysis/human_check.py
 	$(PY) analysis/audit_cis.py
+	$(PY) analysis/heldout_repair.py

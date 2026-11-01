@@ -19,6 +19,7 @@ steps = [
     ("consensus_variants", [PY, os.path.join(HERE, "analysis", "consensus_robustness.py")]),
     ("human_check", [PY, os.path.join(HERE, "analysis", "human_check.py")]),
     ("audit_cis", [PY, os.path.join(HERE, "analysis", "audit_cis.py")]),
+    ("heldout_repair", [PY, os.path.join(HERE, "analysis", "heldout_repair.py")]),
 ]
 failed = 0
 for name, cmd in steps:
