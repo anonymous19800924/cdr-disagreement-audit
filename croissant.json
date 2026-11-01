@@ -30,7 +30,7 @@
   "name": "reliability-weighted-peer-review-reference-labels",
   "description": "Per-opinion adjudication records, reliability-weighted posteriors, arbitration votes, and human annotations for 10,762 disputed review opinions, with audit artifacts that regenerate the reported statistics.",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "url": "https://anonymous.4open.science/r/anonymous19800924",
+  "url": "https://anonymous.4open.science/r/cdr-disagreement-audit-C1E7",
   "version": "1.1.0",
   "citeAs": "Reliability-Weighted Reference Labels for AI-Reviewer Benchmarks: 10,762 Contested Opinions and an Identifiability Result (2026).",
   "distribution": [

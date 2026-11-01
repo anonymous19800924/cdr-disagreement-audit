@@ -2,7 +2,7 @@
 
 This package is the artifact for the paper *Reliability-Weighted Reference Labels for AI-Reviewer Benchmarks*. It is hosted at:
 
-**https://anonymous.4open.science/r/anonymous19800924**
+**https://anonymous.4open.science/r/cdr-disagreement-audit-C1E7**
 
 ## 1. Repository model
 

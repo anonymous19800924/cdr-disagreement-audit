@@ -34,7 +34,7 @@ Following *Datasheets for Datasets* (Gebru et al.).
 ## Distribution and maintenance
 
 - **License.** Derived data CC BY 4.0; code MIT.
-- **Hosting.** Anonymized repository: https://anonymous.4open.science/r/anonymous19800924 (public mirror at camera-ready).
+- **Hosting.** Anonymized repository: https://anonymous.4open.science/r/cdr-disagreement-audit-C1E7 (public mirror at camera-ready).
 - **Maintenance.** Versioned releases (`CHANGELOG.md`); issues tracked in the repository; corpus updates are independent. See `MAINTENANCE.md`.
 
 ## Ethics

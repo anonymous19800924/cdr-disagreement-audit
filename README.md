@@ -2,7 +2,7 @@
 
 Self-contained package for the paper *Reliability-Weighted Reference Labels for AI-Reviewer Benchmarks* (NeurIPS D&B submission, anonymized).
 
-**Repository:** https://anonymous.4open.science/r/anonymous19800924
+**Repository:** https://anonymous.4open.science/r/cdr-disagreement-audit-C1E7
 
 **Maintenance:** see `MAINTENANCE.md`; release history in `CHANGELOG.md`. Run `python run_all.py` (or `make repro`) before every push.
 
