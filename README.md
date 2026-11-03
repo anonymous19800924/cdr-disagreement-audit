@@ -1,6 +1,6 @@
-# Artifact — Reliability-Weighted Peer-Review Reference Labels
+# Artifact — Auditing Reference Labels for AI-Reviewer Benchmarks
 
-Self-contained package for the paper *Reliability-Weighted Reference Labels for AI-Reviewer Benchmarks* (NeurIPS D&B submission, anonymized).
+Self-contained package for the paper *Auditing Reference Labels for AI-Reviewer Benchmarks* (NeurIPS D&B submission, anonymized).
 
 **Repository:** https://anonymous.4open.science/r/cdr-disagreement-audit-C1E7
 

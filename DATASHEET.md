@@ -1,4 +1,4 @@
-# Datasheet — Reliability-Weighted Peer-Review Reference Labels
+# Datasheet — Auditing Reference Labels for AI-Reviewer Benchmarks
 
 Following *Datasheets for Datasets* (Gebru et al.).
 
